@@ -1,0 +1,131 @@
+<html>
+<head>
+    <title>Téléphones Xiaomi avec LineageOS</title>
+    <!-- Charger PyScript -->
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <!-- Style simple pour la lisibilité -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #device-list {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        li.supported {
+            background-color: #e6ffe6;
+        }
+        li.discontinued {
+            background-color: #ffe6e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Téléphones Xiaomi Supportant LineageOS</h1>
+    <div id="device-list">Chargement des données...</div>
+
+    <!-- Code Python incorporé avec PyScript -->
+    <py-script>
+import asyncio
+from pyodide.http import pyfetch
+from bs4 import BeautifulSoup
+import json
+
+# Fonction pour récupérer le contenu d'une URL
+async def fetch_url(url):
+    try:
+        response = await pyfetch(url)
+        return await response.text()
+    except Exception as e:
+        print(f"Erreur lors de la récupération de {url}: {e}")
+        return None
+
+# Récupérer la liste des appareils depuis la page wiki
+async def get_devices():
+    wiki_url = "https://wiki.lineageos.org/devices/"
+    html = await fetch_url(wiki_url)
+    if not html:
+        return []
+    soup = BeautifulSoup(html, 'html.parser')
+    device_cards = soup.find_all('div', class_='device-card')
+    devices = []
+    for card in device_cards:
+        codename = card.get('data-codename', '')
+        name_elem = card.find('h2')
+        oem_elem = card.find('p', class_='device-oem')
+        if not codename or not name_elem or not oem_elem:
+            continue
+        name = name_elem.text.strip()
+        oem = oem_elem.text.strip()
+        status = 'discontinued' if 'discontinued' in card.get('class', []) else 'supported'
+        if oem.lower() == 'xiaomi':
+            devices.append({'codename': codename, 'name': name, 'status': status})
+    return devices
+
+# Récupérer la date de la dernière mise à jour pour un appareil supporté
+async def get_last_build_date(codename):
+    api_url = f"https://download.lineageos.org/api/v1/{codename}/nightly"
+    response = await fetch_url(api_url)
+    if not response:
+        return None
+    try:
+        builds = json.loads(response)
+        if builds and isinstance(builds, list):
+            last_build = max(builds, key=lambda x: x.get('date', '0000-00-00'))
+            return last_build.get('date', None)
+    except Exception as e:
+        print(f"Erreur pour {codename}: {e}")
+    return None
+
+# Fonction principale
+async def main():
+    devices = await get_devices()
+    if not devices:
+        from js import document
+        document.getElementById('device-list').innerHTML = "Erreur lors du chargement des données."
+        return
+
+    # Récupérer les dates pour les appareils supportés
+    for device in devices:
+        if device['status'] == 'supported':
+            device['last_build_date'] = await get_last_build_date(device['codename'])
+        else:
+            device['last_build_date'] = None
+
+    # Séparer les appareils supportés et discontinués
+    supported_devices = [d for d in devices if d['status'] == 'supported']
+    discontinued_devices = [d for d in devices if d['status'] == 'discontinued']
+
+    # Trier les appareils supportés par date (plus récent en premier)
+    supported_devices.sort(key=lambda x: x['last_build_date'] or '0000-00-00', reverse=True)
+
+    # Combiner les listes : supportés en premier, puis discontinués
+    sorted_devices = supported_devices + discontinued_devices
+
+    # Générer la liste HTML
+    html_list = '<ul>'
+    for device in sorted_devices:
+        status = device['status']
+        date = device['last_build_date'] if device['last_build_date'] else 'N/A'
+        class_name = 'supported' if status == 'supported' else 'discontinued'
+        html_list += f'<li class="{class_name}">{device["name"]} ({device["codename"]}) - {status} - Dernière mise à jour : {date}</li>'
+    html_list += '</ul>'
+
+    # Mettre à jour la page
+    from js import document
+    document.getElementById('device-list').innerHTML = html_list
+
+# Exécuter la fonction principale
+asyncio.ensure_future(main())
+    </py-script>
+</body>
+</html>
