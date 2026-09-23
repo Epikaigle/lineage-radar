@@ -51,7 +51,7 @@ function cardTemplate(device) {
     '<div class="card-top"><div class="device-image-wrap">' +
       '<img class="device-image" src="' + image + '" alt="' + escapeHtml(device.name) + '" loading="lazy" decoding="async" onerror="this.parentElement.classList.add(\'is-fallback\')">' +
       '<span class="image-fallback" aria-hidden="true"></span></div><div>' +
-      '<div class="badges">' + badges + '<span class="badge ' + (active ? 'active' : 'discontinued') + '">' + (active ? 'Actif' : 'Arrêté') + '</span></div>' +
+      '<div class="badges">' + badges + '<span class="badge ' + (active ? 'active' : 'discontinued') + '">' + (active ? 'Maintenu' : 'Plus maintenu') + '</span></div>' +
       '<h2 class="card-title">' + escapeHtml(device.name || device.codename) + '</h2>' +
       '<p class="codename">' + escapeHtml(device.codename) + '</p>' +
       '<div class="build-age ' + build.className + '">' + escapeHtml(build.label) + '</div>' +
