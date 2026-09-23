@@ -5,6 +5,10 @@ const translations = {
     pageTitle: "Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds",
     metaDescription: "Track the latest official LineageOS builds for Xiaomi, Redmi and POCO devices.",
     languageLabel: "Language",
+    skipToResults: "Skip to devices",
+    githubLabel: "Open the Lineage Radar repository on GitHub in a new tab",
+    resultsHeading: "LineageOS devices",
+    opensNewTab: "opens in a new tab",
     heroTitle: "Latest LineageOS builds, at a glance.",
     heroCopy: "Track official LineageOS builds for Xiaomi, Redmi and POCO devices. When a new build lands, that device automatically rises to the top.",
     statDevices: "devices",
@@ -56,6 +60,10 @@ const translations = {
     pageTitle: "Lineage Radar — builds LineageOS Xiaomi, Redmi & POCO",
     metaDescription: "Suivez les dernières builds officielles LineageOS pour les appareils Xiaomi, Redmi et POCO.",
     languageLabel: "Langue",
+    skipToResults: "Aller aux appareils",
+    githubLabel: "Ouvrir le dépôt Lineage Radar sur GitHub dans un nouvel onglet",
+    resultsHeading: "Appareils LineageOS",
+    opensNewTab: "s’ouvre dans un nouvel onglet",
     heroTitle: "Les dernières builds LineageOS, en un coup d’œil.",
     heroCopy: "Suivez les builds officielles LineageOS des appareils Xiaomi, Redmi et POCO. Dès qu’une nouvelle build sort, l’appareil remonte automatiquement dans le classement.",
     statDevices: "appareils",
@@ -107,6 +115,10 @@ const translations = {
     pageTitle: "Lineage Radar — builds LineageOS para Xiaomi, Redmi y POCO",
     metaDescription: "Sigue las últimas compilaciones oficiales de LineageOS para dispositivos Xiaomi, Redmi y POCO.",
     languageLabel: "Idioma",
+    skipToResults: "Ir a los dispositivos",
+    githubLabel: "Abrir el repositorio de Lineage Radar en GitHub en una pestaña nueva",
+    resultsHeading: "Dispositivos LineageOS",
+    opensNewTab: "se abre en una pestaña nueva",
     heroTitle: "Las últimas builds de LineageOS, de un vistazo.",
     heroCopy: "Sigue las builds oficiales de LineageOS para dispositivos Xiaomi, Redmi y POCO. Cuando aparece una nueva build, el dispositivo sube automáticamente en la lista.",
     statDevices: "dispositivos",
@@ -158,6 +170,10 @@ const translations = {
     pageTitle: "Lineage Radar — Xiaomi、Redmi 与 POCO 的 LineageOS 构建",
     metaDescription: "追踪 Xiaomi、Redmi 和 POCO 设备最新的官方 LineageOS 构建。",
     languageLabel: "语言",
+    skipToResults: "跳转到设备列表",
+    githubLabel: "在新标签页中打开 Lineage Radar GitHub 仓库",
+    resultsHeading: "LineageOS 设备",
+    opensNewTab: "在新标签页中打开",
     heroTitle: "最新 LineageOS 构建，一目了然。",
     heroCopy: "追踪 Xiaomi、Redmi 和 POCO 设备的官方 LineageOS 构建。发布新构建后，对应设备会自动升到列表顶部。",
     statDevices: "设备",
@@ -272,6 +288,14 @@ function applyStaticTranslations() {
   document.title = t("pageTitle");
   const meta = document.querySelector('meta[name="description"]');
   if (meta) meta.setAttribute("content", t("metaDescription"));
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+  const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  if (ogTitle) ogTitle.setAttribute("content", t("pageTitle"));
+  if (ogDescription) ogDescription.setAttribute("content", t("metaDescription"));
+  if (twitterTitle) twitterTitle.setAttribute("content", t("pageTitle"));
+  if (twitterDescription) twitterDescription.setAttribute("content", t("metaDescription"));
 
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     node.textContent = t(node.dataset.i18n);
@@ -367,7 +391,7 @@ function filteredDevices() {
   return devices;
 }
 
-function cardTemplate(device) {
+function cardTemplate(device, index) {
   const build = relativeBuild(device.last_build);
   const parsed = parseDate(device.last_build);
   const exactDate = parsed ? dateFormatter.format(parsed) : t("dateUnavailable");
@@ -376,20 +400,26 @@ function cardTemplate(device) {
     .join("");
   const active = device.status === "active";
   const image = escapeHtml(device.image || ("https://wiki.lineageos.org/images/devices/small/" + encodeURIComponent(device.codename) + ".png"));
+  const titleId = "device-" + encodeURIComponent(device.codename);
+  const loading = index < 6 ? "eager" : "lazy";
+  const fetchPriority = index < 3 ? ' fetchpriority="high"' : "";
+  const datetime = parsed ? ' datetime="' + escapeHtml(parsed.toISOString()) + '"' : "";
+  const wikiLabel = t("wiki") + ": " + (device.name || device.codename) + " — " + t("opensNewTab");
+  const downloadLabel = t("downloads") + ": " + (device.name || device.codename) + " — " + t("opensNewTab");
 
-  return '<article class="device-card">' +
+  return '<article class="device-card" aria-labelledby="' + titleId + '">' +
     '<div class="card-top"><div class="device-image-wrap">' +
-      '<img class="device-image" src="' + image + '" alt="' + escapeHtml(device.name) + '" loading="lazy" decoding="async" onerror="this.parentElement.classList.add(\'is-fallback\')">' +
-      '<span class="image-fallback" aria-hidden="true"></span></div><div>' +
+      '<img class="device-image" src="' + image + '" alt="" width="82" height="104" loading="' + loading + '" decoding="async"' + fetchPriority + ' onerror="this.parentElement.classList.add(\\'is-fallback\\')">' +
+      '<span class="image-fallback" aria-hidden="true"></span></div><div class="card-content">' +
       '<div class="badges">' + badges + '<span class="badge ' + (active ? "active" : "discontinued") + '">' + escapeHtml(active ? t("maintained") : t("notMaintained")) + "</span></div>" +
-      '<h2 class="card-title">' + escapeHtml(device.name || device.codename) + "</h2>" +
+      '<h3 class="card-title" id="' + titleId + '">' + escapeHtml(device.name || device.codename) + "</h3>" +
       '<p class="codename">' + escapeHtml(device.codename) + "</p>" +
       '<div class="build-age ' + build.className + '">' + escapeHtml(build.label) + "</div>" +
-      '<span class="build-date">' + escapeHtml(t("lastBuild")) + ": " + escapeHtml(exactDate) + "</span></div></div>" +
+      '<time class="build-date"' + datetime + '>' + escapeHtml(t("lastBuild")) + ": " + escapeHtml(exactDate) + "</time></div></div>" +
     '<div class="card-meta"><div class="meta-item"><span>' + escapeHtml(t("version")) + "</span><strong>" + (device.lineage_version ? "LineageOS " + escapeHtml(device.lineage_version) : "—") + "</strong></div>" +
       '<div class="meta-item"><span>' + escapeHtml(t("androidBase")) + "</span><strong>" + (device.android_version ? "Android " + escapeHtml(device.android_version) : "—") + "</strong></div></div>" +
-    '<div class="card-actions"><a href="' + escapeHtml(device.wiki_url) + '" target="_blank" rel="noreferrer">' + escapeHtml(t("wiki")) + " ↗</a>" +
-      '<a href="' + escapeHtml(device.download_url) + '" target="_blank" rel="noreferrer">' + escapeHtml(t("downloads")) + " ↗</a></div></article>";
+    '<div class="card-actions"><a href="' + escapeHtml(device.wiki_url) + '" target="_blank" rel="noopener noreferrer" aria-label="' + escapeHtml(wikiLabel) + '">' + escapeHtml(t("wiki")) + " ↗</a>" +
+      '<a href="' + escapeHtml(device.download_url) + '" target="_blank" rel="noopener noreferrer" aria-label="' + escapeHtml(downloadLabel) + '">' + escapeHtml(t("downloads")) + " ↗</a></div></article>";
 }
 
 function render() {
@@ -404,7 +434,7 @@ function render() {
       : t("sortedName");
   els.reset.hidden = state.brand === "all" && state.status === "all" && !state.query && state.sort === "build";
   els.grid.innerHTML = devices.length
-    ? devices.map(cardTemplate).join("")
+    ? devices.map((device, index) => cardTemplate(device, index)).join("")
     : '<div class="empty-state"><strong>' + escapeHtml(t("noMatchTitle")) + "</strong>" + escapeHtml(t("noMatchText")) + "</div>";
 }
 
@@ -440,7 +470,9 @@ function updateStats() {
 
 function activateButton(container, selector, value) {
   container.querySelectorAll("button").forEach((button) => {
-    button.classList.toggle("is-active", button.matches("[" + selector + '=\'' + value + "\']"));
+    const active = button.matches("[" + selector + '=\'' + value + "\']");
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
   });
 }
 
@@ -455,7 +487,7 @@ function resetFilters() {
 
 async function loadData() {
   try {
-    const response = await fetch(DATA_URL + "?v=" + Date.now(), { cache: "no-store" });
+    const response = await fetch(DATA_URL, { cache: "no-cache" });
     if (!response.ok) throw new Error("HTTP " + response.status);
     const payload = await response.json();
     if (!Array.isArray(payload.devices)) throw new Error("Invalid device data");

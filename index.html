@@ -2,22 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Track the latest official LineageOS builds for Xiaomi, Redmi and POCO devices.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Track the latest official LineageOS builds, Android versions and maintenance status for Xiaomi, Redmi and POCO devices.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="application-name" content="Lineage Radar">
   <meta name="theme-color" content="#0b0f14">
   <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
   <title>Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds</title>
+  <link rel="canonical" href="https://epikaigle.github.io/lineage-radar/">
   <link rel="icon" href="logo.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lineage Radar">
+  <meta property="og:title" content="Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds">
+  <meta property="og:description" content="Track the latest official LineageOS builds, Android versions and maintenance status for Xiaomi, Redmi and POCO devices.">
+  <meta property="og:url" content="https://epikaigle.github.io/lineage-radar/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds">
+  <meta name="twitter:description" content="Track the latest official LineageOS builds, Android versions and maintenance status for Xiaomi, Redmi and POCO devices.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Lineage Radar",
+    "url": "https://epikaigle.github.io/lineage-radar/",
+    "description": "Tracker for official LineageOS builds, Android versions and maintenance status for Xiaomi, Redmi and POCO devices.",
+    "inLanguage": ["en", "fr", "es", "zh-CN"],
+    "isAccessibleForFree": true,
+    "sameAs": "https://github.com/Epikaigle/lineage-radar"
+  }
+  </script>
+
   <link rel="preconnect" href="https://wiki.lineageos.org">
   <link rel="stylesheet" href="styles.css">
   <script defer src="app.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#device-grid" data-i18n="skipToResults">Skip to devices</a>
+
   <header class="site-header">
     <a class="brand" href="./" aria-label="Lineage Radar">
       <img class="brand-mark" src="logo.svg" alt="" width="34" height="34">
       <span>
-        <strong>Lineage Radar</strong>
+        <h1 class="brand-title">Lineage Radar</h1>
         <small>Xiaomi · Redmi · POCO</small>
       </span>
     </a>
@@ -32,12 +62,12 @@
           <option value="zh">中文</option>
         </select>
       </label>
-      <a class="github-link" href="https://github.com/Epikaigle/lineage-radar" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a class="github-link" href="https://github.com/Epikaigle/lineage-radar" target="_blank" rel="noopener noreferrer" data-i18n-aria="githubLabel" aria-label="Open the Lineage Radar repository on GitHub in a new tab">GitHub ↗</a>
     </div>
   </header>
 
-  <main>
-    <section class="utility-summary" aria-live="polite">
+  <main id="main-content">
+    <section class="utility-summary" aria-label="Dataset summary">
       <span><strong id="stat-total">—</strong> <span data-i18n="statDevices">devices</span></span>
       <span><strong id="stat-active">—</strong> <span data-i18n="statMaintained">maintained</span></span>
       <span><strong id="stat-recent">—</strong> <span data-i18n="statRecent">builds ≤ 14 days</span></span>
@@ -48,12 +78,12 @@
       <div class="control-row">
         <label class="search-box">
           <span class="sr-only" data-i18n="searchLabel">Search for a phone or codename</span>
-          <input id="search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search: Mi 10, POCO F3, alioth…">
+          <input id="search" type="search" autocomplete="off" enterkeyhint="search" aria-controls="device-grid" data-i18n-placeholder="searchPlaceholder" placeholder="Search: Mi 10, POCO F3, alioth…">
         </label>
 
         <label class="select-wrap">
           <span data-i18n="sortLabel">Sort</span>
-          <select id="sort">
+          <select id="sort" aria-controls="device-grid">
             <option value="build" data-i18n="sortBuild">Latest build</option>
             <option value="lineage" data-i18n="sortLineage">LineageOS version</option>
             <option value="name" data-i18n="sortName">Name A → Z</option>
@@ -62,28 +92,29 @@
       </div>
 
       <div class="filter-row">
-        <div class="filter-group" data-i18n-aria="brandAria" aria-label="Brand">
+        <div class="filter-group" role="group" data-i18n-aria="brandAria" aria-label="Brand">
           <span class="filter-label" data-i18n="brandLabel">Brand</span>
           <div id="brand-filters" class="segmented">
-            <button class="is-active" type="button" data-brand="all"><span data-i18n="all">All</span> <span data-count="all">0</span></button>
-            <button type="button" data-brand="xiaomi">Xiaomi <span data-count="xiaomi">0</span></button>
-            <button type="button" data-brand="redmi">Redmi <span data-count="redmi">0</span></button>
-            <button type="button" data-brand="poco">POCO <span data-count="poco">0</span></button>
+            <button class="is-active" type="button" data-brand="all" aria-pressed="true" aria-controls="device-grid"><span data-i18n="all">All</span> <span data-count="all">0</span></button>
+            <button type="button" data-brand="xiaomi" aria-pressed="false" aria-controls="device-grid">Xiaomi <span data-count="xiaomi">0</span></button>
+            <button type="button" data-brand="redmi" aria-pressed="false" aria-controls="device-grid">Redmi <span data-count="redmi">0</span></button>
+            <button type="button" data-brand="poco" aria-pressed="false" aria-controls="device-grid">POCO <span data-count="poco">0</span></button>
           </div>
         </div>
 
-        <div class="filter-group" data-i18n-aria="statusAria" aria-label="LineageOS status">
+        <div class="filter-group" role="group" data-i18n-aria="statusAria" aria-label="LineageOS status">
           <span class="filter-label" data-i18n="statusLabel">Status</span>
           <div id="status-filters" class="segmented">
-            <button class="is-active" type="button" data-status="all" data-i18n="all">All</button>
-            <button type="button" data-status="active" data-i18n="maintained">Maintained</button>
-            <button type="button" data-status="discontinued" data-i18n="notMaintained">No longer maintained</button>
+            <button class="is-active" type="button" data-status="all" aria-pressed="true" aria-controls="device-grid" data-i18n="all">All</button>
+            <button type="button" data-status="active" aria-pressed="false" aria-controls="device-grid" data-i18n="maintained">Maintained</button>
+            <button type="button" data-status="discontinued" aria-pressed="false" aria-controls="device-grid" data-i18n="notMaintained">No longer maintained</button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="results-head" aria-live="polite">
+    <section class="results-head" role="status" aria-live="polite" aria-atomic="true">
+      <h2 id="results-heading" class="sr-only" data-i18n="resultsHeading">LineageOS devices</h2>
       <div class="results-info">
         <strong id="result-count" data-i18n="loading">Loading…</strong>
         <span id="result-note" data-i18n="loadingData">Loading LineageOS data.</span>
@@ -91,11 +122,15 @@
       <button id="reset" class="reset-button" type="button" hidden data-i18n="reset">Reset filters</button>
     </section>
 
-    <section id="device-grid" class="device-grid" aria-live="polite" aria-busy="true">
-      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
-      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
-      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+    <section id="device-grid" class="device-grid" aria-labelledby="results-heading" aria-busy="true">
+      <article class="loading-card" aria-hidden="true"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+      <article class="loading-card" aria-hidden="true"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+      <article class="loading-card" aria-hidden="true"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
     </section>
+
+    <noscript>
+      <p class="noscript-note">JavaScript is required to load the current LineageOS device data and filters.</p>
+    </noscript>
 
     <details class="method">
       <summary data-i18n="howItWorks">How it works</summary>
