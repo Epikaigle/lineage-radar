@@ -1,11 +1,107 @@
 {
-  "generated_at": "2026-09-23T12:44:43Z",
+  "generated_at": "2026-09-23T17:05:33Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "mars",
+      "name": "Mi 11 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-23T07:44:01Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102K1AC"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
+      "download_url": "https://download.lineageos.org/devices/mars"
+    },
+    {
+      "codename": "gemini",
+      "name": "Mi 5",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-23T07:26:30Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
+      "download_url": "https://download.lineageos.org/devices/gemini"
+    },
+    {
+      "codename": "diting",
+      "name": "12T Pro / Redmi K50 Ultra",
+      "aliases": [
+        "Redmi K50 Ultra",
+        "12T Pro"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-23T06:23:59Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22081212C",
+        "22081212UG",
+        "22081212R",
+        "22200414R",
+        "A201XM"
+      ],
+      "release": "2022-08-25",
+      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
+      "download_url": "https://download.lineageos.org/devices/diting"
+    },
+    {
+      "codename": "gauguin",
+      "name": "Mi 10T Lite 5G / Mi 10i 5G / Redmi Note 9 Pro 5G",
+      "aliases": [
+        "Mi 10i 5G",
+        "Mi 10T Lite 5G",
+        "Redmi Note 9 Pro 5G"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-23T06:18:00Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J17I",
+        "M2007J17G",
+        "M2007J17C"
+      ],
+      "release": "2021-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
+      "download_url": "https://download.lineageos.org/devices/gauguin"
+    },
     {
       "codename": "venus",
       "name": "Mi 11",
@@ -1233,102 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
       "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
       "download_url": "https://download.lineageos.org/devices/cupid"
-    },
-    {
-      "codename": "gemini",
-      "name": "Mi 5",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-16T04:53:07Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
-      "download_url": "https://download.lineageos.org/devices/gemini"
-    },
-    {
-      "codename": "mars",
-      "name": "Mi 11 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-16T02:44:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102K1AC"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
-      "download_url": "https://download.lineageos.org/devices/mars"
-    },
-    {
-      "codename": "gauguin",
-      "name": "Mi 10T Lite 5G / Mi 10i 5G / Redmi Note 9 Pro 5G",
-      "aliases": [
-        "Mi 10i 5G",
-        "Mi 10T Lite 5G",
-        "Redmi Note 9 Pro 5G"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-16T00:13:37Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J17I",
-        "M2007J17G",
-        "M2007J17C"
-      ],
-      "release": "2021-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
-      "download_url": "https://download.lineageos.org/devices/gauguin"
-    },
-    {
-      "codename": "diting",
-      "name": "12T Pro / Redmi K50 Ultra",
-      "aliases": [
-        "Redmi K50 Ultra",
-        "12T Pro"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-16T00:02:19Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22081212C",
-        "22081212UG",
-        "22081212R",
-        "22200414R",
-        "A201XM"
-      ],
-      "release": "2022-08-25",
-      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
-      "download_url": "https://download.lineageos.org/devices/diting"
     },
     {
       "codename": "Mi8917",
