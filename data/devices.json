@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:05:54Z",
+  "generated_at": "2026-09-23T12:44:43Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
@@ -1331,6 +1331,43 @@
       "download_url": "https://download.lineageos.org/devices/diting"
     },
     {
+      "codename": "Mi8917",
+      "name": "Redmi 4A / 5A / [Note 5A / Y1 - Lite]",
+      "aliases": [
+        "Redmi 4A",
+        "Redmi Note 5A Lite",
+        "Redmi Y1 Lite",
+        "Redmi 5A"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "discontinued",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-08-20T05:00:03Z",
+      "build_type": "nightly",
+      "build_cadence": null,
+      "models": [
+        "2016111",
+        "2016112",
+        "2016116",
+        "2016117",
+        "MDE6",
+        "MDG6",
+        "MDT6",
+        "MDI6",
+        "MCE3B",
+        "MCG3B",
+        "MCI3B",
+        "MCT3B"
+      ],
+      "release": "2016-11-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/Mi8917_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
+      "download_url": "https://download.lineageos.org/devices/Mi8917"
+    },
+    {
       "codename": "Mi439",
       "name": "Redmi 7A / 8 / 8A / 8A Dual",
       "aliases": [
@@ -1345,8 +1382,8 @@
       "status": "discontinued",
       "lineage_version": "23.2",
       "android_version": "16",
-      "last_build": null,
-      "build_type": null,
+      "last_build": "2026-08-20T01:24:11Z",
+      "build_type": "nightly",
       "build_cadence": null,
       "models": [
         "M1908C3KE",
@@ -1372,43 +1409,6 @@
       "download_url": "https://download.lineageos.org/devices/Mi439"
     },
     {
-      "codename": "Mi8917",
-      "name": "Redmi 4A / 5A / [Note 5A / Y1 - Lite]",
-      "aliases": [
-        "Redmi 4A",
-        "Redmi Note 5A Lite",
-        "Redmi Y1 Lite",
-        "Redmi 5A"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "discontinued",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": null,
-      "build_type": null,
-      "build_cadence": null,
-      "models": [
-        "2016111",
-        "2016112",
-        "2016116",
-        "2016117",
-        "MDE6",
-        "MDG6",
-        "MDT6",
-        "MDI6",
-        "MCE3B",
-        "MCG3B",
-        "MCI3B",
-        "MCT3B"
-      ],
-      "release": "2016-11-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/Mi8917_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
-      "download_url": "https://download.lineageos.org/devices/Mi8917"
-    },
-    {
       "codename": "Mi8937",
       "name": "Redmi 3S / 3X / 4(X) / [Note 5A / Y1 - Prime]",
       "aliases": [
@@ -1425,8 +1425,8 @@
       "status": "discontinued",
       "lineage_version": "23.2",
       "android_version": "16",
-      "last_build": null,
-      "build_type": null,
+      "last_build": "2026-08-18T00:05:20Z",
+      "build_type": "nightly",
       "build_cadence": null,
       "models": [
         "MAG138",
