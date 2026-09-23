@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Track the latest official LineageOS builds for Xiaomi, Redmi and POCO devices.">
-  <meta name="theme-color" content="#080d17">
+  <meta name="theme-color" content="#0b0f14">
   <meta name="color-scheme" content="dark">
   <title>Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds</title>
   <link rel="icon" href="logo.svg" type="image/svg+xml">
@@ -15,7 +15,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="./" aria-label="Lineage Radar">
-      <img class="brand-mark" src="logo.svg" alt="" width="44" height="44">
+      <img class="brand-mark" src="logo.svg" alt="" width="34" height="34">
       <span>
         <strong>Lineage Radar</strong>
         <small>Xiaomi · Redmi · POCO</small>
@@ -32,22 +32,16 @@
           <option value="zh">中文</option>
         </select>
       </label>
-      <a class="github-link" href="https://github.com/Epikaigle" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a class="github-link" href="https://github.com/Epikaigle/lineage-radar" target="_blank" rel="noreferrer">GitHub ↗</a>
     </div>
   </header>
 
   <main>
-    <section class="hero" aria-labelledby="page-title">
-      <div class="hero-brandline">Lineage Radar</div>
-      <h1 id="page-title" data-i18n="heroTitle">Latest LineageOS builds, at a glance.</h1>
-      <p class="hero-copy" data-i18n="heroCopy">Track official LineageOS builds for Xiaomi, Redmi and POCO devices. When a new build lands, that device automatically rises to the top.</p>
-
-      <div class="stats" aria-live="polite">
-        <div class="stat"><strong id="stat-total">—</strong><span data-i18n="statDevices">devices</span></div>
-        <div class="stat"><strong id="stat-active">—</strong><span data-i18n="statMaintained">maintained</span></div>
-        <div class="stat"><strong id="stat-recent">—</strong><span data-i18n="statRecent">builds ≤ 14 days</span></div>
-        <div class="stat"><strong id="stat-sync">—</strong><span data-i18n="statSync">last sync</span></div>
-      </div>
+    <section class="utility-summary" aria-live="polite">
+      <span><strong id="stat-total">—</strong> <span data-i18n="statDevices">devices</span></span>
+      <span><strong id="stat-active">—</strong> <span data-i18n="statMaintained">maintained</span></span>
+      <span><strong id="stat-recent">—</strong> <span data-i18n="statRecent">builds ≤ 14 days</span></span>
+      <span><span data-i18n="statSync">last sync</span>: <strong id="stat-sync">—</strong></span>
     </section>
 
     <section class="controls" data-i18n-aria="filtersAria" aria-label="Device filters">
@@ -56,6 +50,7 @@
           <span class="sr-only" data-i18n="searchLabel">Search for a phone or codename</span>
           <input id="search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search: Mi 10, POCO F3, alioth…">
         </label>
+
         <label class="select-wrap">
           <span data-i18n="sortLabel">Sort</span>
           <select id="sort">
@@ -66,30 +61,32 @@
         </label>
       </div>
 
-      <div class="filter-group" data-i18n-aria="brandAria" aria-label="Brand">
-        <span class="filter-label" data-i18n="brandLabel">Brand</span>
-        <div id="brand-filters" class="segmented">
-          <button class="is-active" type="button" data-brand="all"><span data-i18n="all">All</span> <span data-count="all">0</span></button>
-          <button type="button" data-brand="xiaomi">Xiaomi <span data-count="xiaomi">0</span></button>
-          <button type="button" data-brand="redmi">Redmi <span data-count="redmi">0</span></button>
-          <button type="button" data-brand="poco">POCO <span data-count="poco">0</span></button>
+      <div class="filter-row">
+        <div class="filter-group" data-i18n-aria="brandAria" aria-label="Brand">
+          <span class="filter-label" data-i18n="brandLabel">Brand</span>
+          <div id="brand-filters" class="segmented">
+            <button class="is-active" type="button" data-brand="all"><span data-i18n="all">All</span> <span data-count="all">0</span></button>
+            <button type="button" data-brand="xiaomi">Xiaomi <span data-count="xiaomi">0</span></button>
+            <button type="button" data-brand="redmi">Redmi <span data-count="redmi">0</span></button>
+            <button type="button" data-brand="poco">POCO <span data-count="poco">0</span></button>
+          </div>
         </div>
-      </div>
 
-      <div class="filter-group" data-i18n-aria="statusAria" aria-label="LineageOS status">
-        <span class="filter-label" data-i18n="statusLabel">Status</span>
-        <div id="status-filters" class="segmented">
-          <button class="is-active" type="button" data-status="all" data-i18n="all">All</button>
-          <button type="button" data-status="active" data-i18n="maintained">Maintained</button>
-          <button type="button" data-status="discontinued" data-i18n="notMaintained">No longer maintained</button>
+        <div class="filter-group" data-i18n-aria="statusAria" aria-label="LineageOS status">
+          <span class="filter-label" data-i18n="statusLabel">Status</span>
+          <div id="status-filters" class="segmented">
+            <button class="is-active" type="button" data-status="all" data-i18n="all">All</button>
+            <button type="button" data-status="active" data-i18n="maintained">Maintained</button>
+            <button type="button" data-status="discontinued" data-i18n="notMaintained">No longer maintained</button>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="results-head" aria-live="polite">
-      <div>
+      <div class="results-info">
         <strong id="result-count" data-i18n="loading">Loading…</strong>
-        <p id="result-note" data-i18n="loadingData">Loading LineageOS data.</p>
+        <span id="result-note" data-i18n="loadingData">Loading LineageOS data.</span>
       </div>
       <button id="reset" class="reset-button" type="button" hidden data-i18n="reset">Reset filters</button>
     </section>
