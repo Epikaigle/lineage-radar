@@ -401,8 +401,8 @@ function cardTemplate(device, index) {
   const active = device.status === "active";
   const image = escapeHtml(device.image || ("https://wiki.lineageos.org/images/devices/small/" + encodeURIComponent(device.codename) + ".png"));
   const titleId = "device-" + encodeURIComponent(device.codename);
-  const loading = index < 6 ? "eager" : "lazy";
-  const fetchPriority = index < 3 ? ' fetchpriority="high"' : "";
+  const loading = index < 3 ? "eager" : "lazy";
+  const fetchPriority = index === 0 ? ' fetchpriority="high"' : "";
   const datetime = parsed ? ' datetime="' + escapeHtml(parsed.toISOString()) + '"' : "";
   const wikiLabel = t("wiki") + ": " + (device.name || device.codename) + " — " + t("opensNewTab");
   const downloadLabel = t("downloads") + ": " + (device.name || device.codename) + " — " + t("opensNewTab");
