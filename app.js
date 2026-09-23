@@ -409,7 +409,7 @@ function cardTemplate(device, index) {
 
   return '<article class="device-card" aria-labelledby="' + titleId + '">' +
     '<div class="card-top"><div class="device-image-wrap">' +
-      '<img class="device-image" src="' + image + '" alt="" width="82" height="104" loading="' + loading + '" decoding="async"' + fetchPriority + ' onerror="this.parentElement.classList.add(\\'is-fallback\\')">' +
+      '<img class="device-image" src="' + image + '" alt="" width="82" height="104" loading="' + loading + '" decoding="async"' + fetchPriority + ' onerror="this.parentElement.classList.add(\'is-fallback\')">' +
       '<span class="image-fallback" aria-hidden="true"></span></div><div class="card-content">' +
       '<div class="badges">' + badges + '<span class="badge ' + (active ? "active" : "discontinued") + '">' + escapeHtml(active ? t("maintained") : t("notMaintained")) + "</span></div>" +
       '<h3 class="card-title" id="' + titleId + '">' + escapeHtml(device.name || device.codename) + "</h3>" +
