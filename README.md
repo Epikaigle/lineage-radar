@@ -1,39 +1,52 @@
-# Xiaomi × LineageOS Build Tracker
+# Lineage Radar
 
-Site statique qui classe les appareils **Xiaomi, Redmi et POCO** selon la date de leur dernière build officielle LineageOS.
+**Lineage Radar** is a small, multilingual tracker for official LineageOS builds on **Xiaomi, Redmi and POCO** devices.
 
-➡️ **Site : https://epikaigle.github.io/xiaomi-lineageos/**
+It answers one simple question: **which devices received the newest LineageOS builds?**
 
-## Objectif
+Devices are sorted by their latest available official build date, so a newly released build automatically moves that device toward the top of the list.
 
-Les appareils Xiaomi ne sont pas nommés de façon uniforme dans les différentes sources : certains s'appellent Mi, d'autres simplement 12 ou 13, tandis qu'un même codename peut être vendu à la fois sous un nom **Redmi**, **POCO** et parfois **Mi/Xiaomi**.
+## Features
 
-Le tracker travaille donc d'abord avec le **codename LineageOS**, puis regroupe les noms commerciaux et les alias. Un appareil peut appartenir à plusieurs filtres à la fois.
+- Xiaomi / Redmi / POCO filters;
+- automatic grouping by LineageOS codename;
+- shared devices can belong to several brands at once;
+- latest official build date;
+- current LineageOS version and Android base;
+- maintained / no longer maintained status;
+- official LineageOS Wiki and download links;
+- official device images when available;
+- search and sorting;
+- responsive layout;
+- interface available in **English, French, Spanish and Simplified Chinese**;
+- automatic browser-language detection with a manual language selector.
 
-Le classement par défaut répond à une question simple : **quel appareil a reçu la build LineageOS la plus récente ?** Lorsqu'une nouvelle build sort, sa date est récupérée automatiquement et l'appareil remonte dans la liste.
+## Why the codename matters
 
-## Données affichées
+Xiaomi-family naming is inconsistent across regions and generations. A single LineageOS codename can represent multiple commercial names, sometimes across Xiaomi, Redmi and POCO.
 
-Pour chaque appareil :
+Lineage Radar therefore uses the **LineageOS codename as the canonical identity**, then merges commercial names and aliases around it.
 
-- nom commercial et alias ;
-- codename LineageOS ;
-- gamme Xiaomi / Redmi / POCO ;
-- photo provenant du wiki LineageOS ;
-- statut actuel dans les build targets officiels ;
-- version LineageOS ;
-- version Android correspondante ;
-- date de la dernière build disponible ;
-- liens vers le wiki et le portail de téléchargement LineageOS.
+## Maintenance status vs. downloadable builds
 
-## Sources officielles
+These are intentionally separate concepts.
 
-Le script scripts/update_data.py agrège uniquement des sources publiques LineageOS :
+**Maintained** means the codename is currently present in the official LineageOS build targets.
 
-- LineageOS/hudson/updater/devices.json pour les noms et codenames ;
-- LineageOS/hudson/lineage-build-targets pour savoir quels appareils ont encore des builds programmées et sur quelle branche ;
-- LineageOS/lineage_wiki/_data/devices pour les variantes, modèles et images ;
-- download.lineageos.org/api/v2/devices/<codename>/builds pour les dates de builds, avec un fallback vers l'API v1 pour les appareils plus anciens.
+A device marked **No longer maintained** can still have older official builds available for download. Lineage Radar keeps showing the latest dated build it can retrieve, even after active maintenance ends.
+
+## Official data sources
+
+The collector in `scripts/update_data.py` aggregates public LineageOS sources:
+
+- `LineageOS/hudson/updater/devices.json` for device names and codenames;
+- `LineageOS/hudson/lineage-build-targets` for current build targets and branches;
+- `LineageOS/lineage_wiki/_data/devices` for variants, models and images;
+- `download.lineageos.org/api/v2/devices/<codename>/builds` for build dates, with a v1 fallback for older devices.
+
+Codenames are preserved with their exact case because the download API is case-sensitive for identifiers such as `Mi8937`.
+
+## LineageOS / Android mapping
 
 | LineageOS | Android |
 |---|---|
@@ -45,53 +58,51 @@ Le script scripts/update_data.py agrège uniquement des sources publiques Lineag
 | 18.1 | 11 |
 | 17.1 | 10 |
 
-Cette table reprend la correspondance utilisée par le wiki officiel LineageOS.
+## Automatic refresh
 
-## Mise à jour automatique
+The GitHub Actions workflow in `.github/workflows/update-data.yml` refreshes the dataset every **6 hours**, when the collector changes, or manually through `workflow_dispatch`.
 
-Le workflow .github/workflows/update-data.yml s'exécute toutes les **6 heures**, lors d'une modification du script de collecte, ou manuellement via workflow_dispatch.
+It only commits `data/devices.json` when the generated data changed.
 
-Il régénère data/devices.json puis ne crée un commit que si les données ont réellement changé.
+The frontend loads `./data/devices.json` relatively, so the project remains functional if the GitHub repository is renamed.
 
-Le front charge volontairement la version raw de data/devices.json sur la branche main. Ainsi, les nouvelles dates de build sont visibles sur le site sans dépendre du cache d'un nouveau build GitHub Pages.
+## Local development
 
-## GitHub Pages
+```bash
+python -m http.server 8000
+```
 
-Le site ne nécessite ni framework, ni Node.js, ni serveur : index.html, styles.css et app.js sont directement publiables par GitHub Pages.
+Then open `http://localhost:8000`.
 
-Le dépôt est prévu pour être servi depuis la branche main, à la racine. Une fois GitHub Pages activé sur cette source, chaque modification du site est redéployée automatiquement à l'URL du projet.
+To regenerate data locally:
 
-## Développement local
+```bash
+python -m pip install PyYAML==6.0.2
+python scripts/update_data.py
+```
 
-Lancer :
+## Project structure
 
-    python -m http.server 8000
+```text
+.
+├── index.html
+├── styles.css
+├── app.js
+├── logo.svg
+├── data/
+│   └── devices.json
+├── scripts/
+│   └── update_data.py
+└── .github/workflows/
+    └── update-data.yml
+```
 
-Puis ouvrir http://localhost:8000.
+## Name
 
-Pour régénérer les données localement :
+Project name: **Lineage Radar**
 
-    python -m pip install PyYAML==6.0.2
-    python scripts/update_data.py
+Recommended GitHub repository slug: **`lineage-radar`**
 
-## Structure
+## Affiliation
 
-    .
-    ├── index.html
-    ├── styles.css
-    ├── app.js
-    ├── data/
-    │   └── devices.json
-    ├── scripts/
-    │   └── update_data.py
-    └── .github/workflows/
-        └── update-data.yml
-
-## Licence / affiliation
-
-Projet communautaire non affilié à Xiaomi ni à LineageOS. Les marques, noms d'appareils, images et données restent la propriété de leurs détenteurs respectifs.
-
-
-### Codenames et statut
-
-Les codenames LineageOS sont traités en respectant leur casse exacte (par exemple `Mi8937`). Le statut **Maintenu** signifie que l’appareil figure dans les build targets actuels de LineageOS. Un appareil **Plus maintenu** peut encore avoir d’anciennes builds officielles disponibles ; dans ce cas, leur dernière date connue reste affichée.
+Community project. Not affiliated with Xiaomi or LineageOS. Product names, images and source data belong to their respective owners.

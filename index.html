@@ -1,82 +1,97 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Suivez la fraîcheur des builds LineageOS pour les appareils Xiaomi, Redmi et POCO, classés par date de dernière release.">
-  <meta name="theme-color" content="#0b1220">
-  <title>Xiaomi × LineageOS — suivi des builds</title>
+  <meta name="description" content="Track the latest official LineageOS builds for Xiaomi, Redmi and POCO devices.">
+  <meta name="theme-color" content="#080d17">
+  <meta name="color-scheme" content="dark">
+  <title>Lineage Radar — Xiaomi, Redmi & POCO LineageOS builds</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://wiki.lineageos.org">
   <link rel="stylesheet" href="styles.css">
   <script defer src="app.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="./" aria-label="Accueil Xiaomi LineageOS">
-      <span class="brand-mark" aria-hidden="true">XL</span>
+    <a class="brand" href="./" aria-label="Lineage Radar">
+      <img class="brand-mark" src="logo.svg" alt="" width="44" height="44">
       <span>
-        <strong>Xiaomi × LineageOS</strong>
-        <small>Build tracker</small>
+        <strong>Lineage Radar</strong>
+        <small>Xiaomi · Redmi · POCO</small>
       </span>
     </a>
-    <a class="github-link" href="https://github.com/Epikaigle/xiaomi-lineageos" target="_blank" rel="noreferrer">GitHub ↗</a>
+
+    <div class="header-actions">
+      <label class="language-picker">
+        <span class="sr-only" data-i18n="languageLabel">Language</span>
+        <select id="language" aria-label="Language">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+          <option value="zh">中文</option>
+        </select>
+      </label>
+      <a class="github-link" href="https://github.com/Epikaigle" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="page-title">
-      <p class="eyebrow">Suivi automatique des releases officielles</p>
-      <h1 id="page-title">Quels Xiaomi reçoivent encore des builds LineageOS&nbsp;?</h1>
-      <p class="hero-copy">Les appareils Xiaomi, Redmi et POCO sont regroupés par codename puis classés par date de dernière build. Dès qu’une nouvelle build est publiée, le téléphone remonte dans le classement.</p>
+      <div class="hero-brandline">Lineage Radar</div>
+      <h1 id="page-title" data-i18n="heroTitle">Latest LineageOS builds, at a glance.</h1>
+      <p class="hero-copy" data-i18n="heroCopy">Track official LineageOS builds for Xiaomi, Redmi and POCO devices. When a new build lands, that device automatically rises to the top.</p>
+
       <div class="stats" aria-live="polite">
-        <div class="stat"><strong id="stat-total">—</strong><span>appareils</span></div>
-        <div class="stat"><strong id="stat-active">—</strong><span>maintenus</span></div>
-        <div class="stat"><strong id="stat-recent">—</strong><span>builds ≤ 14 j</span></div>
-        <div class="stat"><strong id="stat-sync">—</strong><span>dernière collecte</span></div>
+        <div class="stat"><strong id="stat-total">—</strong><span data-i18n="statDevices">devices</span></div>
+        <div class="stat"><strong id="stat-active">—</strong><span data-i18n="statMaintained">maintained</span></div>
+        <div class="stat"><strong id="stat-recent">—</strong><span data-i18n="statRecent">builds ≤ 14 days</span></div>
+        <div class="stat"><strong id="stat-sync">—</strong><span data-i18n="statSync">last sync</span></div>
       </div>
     </section>
 
-    <section class="controls" aria-label="Filtres des appareils">
+    <section class="controls" data-i18n-aria="filtersAria" aria-label="Device filters">
       <div class="control-row">
         <label class="search-box">
-          <span class="sr-only">Rechercher un téléphone ou un codename</span>
-          <input id="search" type="search" autocomplete="off" placeholder="Rechercher : Mi 10, POCO F3, alioth…">
+          <span class="sr-only" data-i18n="searchLabel">Search for a phone or codename</span>
+          <input id="search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search: Mi 10, POCO F3, alioth…">
         </label>
         <label class="select-wrap">
-          <span>Tri</span>
+          <span data-i18n="sortLabel">Sort</span>
           <select id="sort">
-            <option value="build">Dernière build</option>
-            <option value="lineage">Version LineageOS</option>
-            <option value="name">Nom A → Z</option>
+            <option value="build" data-i18n="sortBuild">Latest build</option>
+            <option value="lineage" data-i18n="sortLineage">LineageOS version</option>
+            <option value="name" data-i18n="sortName">Name A → Z</option>
           </select>
         </label>
       </div>
 
-      <div class="filter-group" aria-label="Marque">
-        <span class="filter-label">Gamme</span>
+      <div class="filter-group" data-i18n-aria="brandAria" aria-label="Brand">
+        <span class="filter-label" data-i18n="brandLabel">Brand</span>
         <div id="brand-filters" class="segmented">
-          <button class="is-active" type="button" data-brand="all">Tous <span data-count="all">0</span></button>
+          <button class="is-active" type="button" data-brand="all"><span data-i18n="all">All</span> <span data-count="all">0</span></button>
           <button type="button" data-brand="xiaomi">Xiaomi <span data-count="xiaomi">0</span></button>
           <button type="button" data-brand="redmi">Redmi <span data-count="redmi">0</span></button>
           <button type="button" data-brand="poco">POCO <span data-count="poco">0</span></button>
         </div>
       </div>
 
-      <div class="filter-group" aria-label="Statut LineageOS">
-        <span class="filter-label">Statut</span>
+      <div class="filter-group" data-i18n-aria="statusAria" aria-label="LineageOS status">
+        <span class="filter-label" data-i18n="statusLabel">Status</span>
         <div id="status-filters" class="segmented">
-          <button class="is-active" type="button" data-status="all">Tous</button>
-          <button type="button" data-status="active">Maintenus</button>
-          <button type="button" data-status="discontinued">Plus maintenus</button>
+          <button class="is-active" type="button" data-status="all" data-i18n="all">All</button>
+          <button type="button" data-status="active" data-i18n="maintained">Maintained</button>
+          <button type="button" data-status="discontinued" data-i18n="notMaintained">No longer maintained</button>
         </div>
       </div>
     </section>
 
     <section class="results-head" aria-live="polite">
       <div>
-        <strong id="result-count">Chargement…</strong>
-        <p id="result-note">Récupération des données LineageOS.</p>
+        <strong id="result-count" data-i18n="loading">Loading…</strong>
+        <p id="result-note" data-i18n="loadingData">Loading LineageOS data.</p>
       </div>
-      <button id="reset" class="reset-button" type="button" hidden>Réinitialiser les filtres</button>
+      <button id="reset" class="reset-button" type="button" hidden data-i18n="reset">Reset filters</button>
     </section>
 
     <section id="device-grid" class="device-grid" aria-live="polite" aria-busy="true">
@@ -85,16 +100,18 @@
       <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
     </section>
 
-    <section class="method">
-      <h2>Comment le classement fonctionne</h2>
-      <p>Les noms viennent des données officielles LineageOS. Les alias commerciaux partageant le même codename sont regroupés, ce qui permet à un modèle d’apparaître dans plusieurs gammes, par exemple Redmi et POCO. Le classement par défaut utilise la date de la dernière build disponible ; l’état « maintenu » correspond aux appareils présents dans les build targets officiels de LineageOS. Un appareil peut donc encore avoir des builds officielles téléchargeables tout en n’étant plus dans le roster actuel.</p>
-      <p class="source-note">Sources : LineageOS Wiki, LineageOS Hudson et API de téléchargement LineageOS. Ce site est communautaire et n’est pas affilié à Xiaomi ni à LineageOS.</p>
-    </section>
+    <details class="method">
+      <summary data-i18n="howItWorks">How it works</summary>
+      <div class="method-body">
+        <p data-i18n="methodText">Devices are grouped by their LineageOS codename, so one device can appear under Xiaomi, Redmi and POCO at the same time. The default ranking uses the date of the latest official build. “Maintained” means the codename is currently present in LineageOS build targets; older official builds may remain downloadable after maintenance ends.</p>
+        <p class="source-note" data-i18n="sourcesText">Sources: LineageOS Wiki, LineageOS Hudson and the LineageOS download API. Community project, not affiliated with Xiaomi or LineageOS.</p>
+      </div>
+    </details>
   </main>
 
   <footer>
-    <span>Xiaomi × LineageOS Build Tracker</span>
-    <span id="footer-updated">Données en cours de chargement</span>
+    <span>Lineage Radar · <span data-i18n="communityProject">Community project</span></span>
+    <span id="footer-updated" data-i18n="loadingData">Loading LineageOS data.</span>
   </footer>
 </body>
 </html>
