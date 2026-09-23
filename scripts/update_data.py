@@ -117,6 +117,7 @@ def wiki_metadata(repo: Path) -> dict[str, dict]:
             versions.update(str(v) for v in (entry.get("versions") or []))
             maintainers.update(str(v) for v in (entry.get("maintainers") or []))
         result[key] = {
+            "codename": codename,
             "names": names,
             "models": models,
             "image": image,
@@ -256,7 +257,14 @@ def main() -> None:
     latest_by_code: dict[str, dict] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
         future_map = {
-            pool.submit(fetch_latest_build, codename): codename
+            pool.submit(
+                fetch_latest_build,
+                str(
+                    hudson_xiaomi.get(codename, {}).get("model")
+                    or wiki.get(codename, {}).get("codename")
+                    or codename
+                ),
+            ): codename
             for codename in codenames
         }
         for future in concurrent.futures.as_completed(future_map):
@@ -276,7 +284,11 @@ def main() -> None:
         hudson_device = hudson_xiaomi.get(key, {})
         wiki_device = wiki.get(key, {})
 
-        codename = str(hudson_device.get("model") or key)
+        codename = str(
+            hudson_device.get("model")
+            or wiki_device.get("codename")
+            or key
+        )
         hudson_name = str(hudson_device.get("name") or "").strip()
         wiki_names = [
             str(name).strip()
