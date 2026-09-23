@@ -29,7 +29,7 @@
       <p class="hero-copy">Les appareils Xiaomi, Redmi et POCO sont regroupés par codename puis classés par date de dernière build. Dès qu’une nouvelle build est publiée, le téléphone remonte dans le classement.</p>
       <div class="stats" aria-live="polite">
         <div class="stat"><strong id="stat-total">—</strong><span>appareils</span></div>
-        <div class="stat"><strong id="stat-active">—</strong><span>actifs</span></div>
+        <div class="stat"><strong id="stat-active">—</strong><span>maintenus</span></div>
         <div class="stat"><strong id="stat-recent">—</strong><span>builds ≤ 14 j</span></div>
         <div class="stat"><strong id="stat-sync">—</strong><span>dernière collecte</span></div>
       </div>
@@ -65,8 +65,8 @@
         <span class="filter-label">Statut</span>
         <div id="status-filters" class="segmented">
           <button class="is-active" type="button" data-status="all">Tous</button>
-          <button type="button" data-status="active">Builds actives</button>
-          <button type="button" data-status="discontinued">Arrêtés</button>
+          <button type="button" data-status="active">Maintenus</button>
+          <button type="button" data-status="discontinued">Plus maintenus</button>
         </div>
       </div>
     </section>
@@ -87,7 +87,7 @@
 
     <section class="method">
       <h2>Comment le classement fonctionne</h2>
-      <p>Les noms viennent des données officielles LineageOS. Les alias commerciaux partageant le même codename sont regroupés, ce qui permet à un modèle d’apparaître dans plusieurs gammes, par exemple Redmi et POCO. Le classement par défaut utilise la date de la dernière build disponible ; l’état « actif » correspond aux appareils présents dans les build targets officiels de LineageOS.</p>
+      <p>Les noms viennent des données officielles LineageOS. Les alias commerciaux partageant le même codename sont regroupés, ce qui permet à un modèle d’apparaître dans plusieurs gammes, par exemple Redmi et POCO. Le classement par défaut utilise la date de la dernière build disponible ; l’état « maintenu » correspond aux appareils présents dans les build targets officiels de LineageOS. Un appareil peut donc encore avoir des builds officielles téléchargeables tout en n’étant plus dans le roster actuel.</p>
       <p class="source-note">Sources : LineageOS Wiki, LineageOS Hudson et API de téléchargement LineageOS. Ce site est communautaire et n’est pas affilié à Xiaomi ni à LineageOS.</p>
     </section>
   </main>
