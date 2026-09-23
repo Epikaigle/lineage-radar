@@ -90,3 +90,8 @@ Pour régénérer les données localement :
 ## Licence / affiliation
 
 Projet communautaire non affilié à Xiaomi ni à LineageOS. Les marques, noms d'appareils, images et données restent la propriété de leurs détenteurs respectifs.
+
+
+### Codenames et statut
+
+Les codenames LineageOS sont traités en respectant leur casse exacte (par exemple `Mi8937`). Le statut **Maintenu** signifie que l’appareil figure dans les build targets actuels de LineageOS. Un appareil **Plus maintenu** peut encore avoir d’anciennes builds officielles disponibles ; dans ce cas, leur dernière date connue reste affichée.
