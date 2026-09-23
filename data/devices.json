@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:04:23Z",
+  "generated_at": "2026-09-23T12:05:54Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
@@ -55,8 +55,8 @@
       "name": "POCO F3 / Redmi K40 / Mi 11X",
       "aliases": [
         "Redmi K40",
-        "POCO F3",
-        "Mi 11X"
+        "Mi 11X",
+        "POCO F3"
       ],
       "brands": [
         "xiaomi",
@@ -71,8 +71,8 @@
       "build_cadence": "W",
       "models": [
         "M2012K11AC",
-        "M2012K11AG",
-        "M2012K11AI"
+        "M2012K11AI",
+        "M2012K11AG"
       ],
       "release": "2021-02",
       "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
@@ -83,11 +83,10 @@
       "codename": "ginkgo",
       "name": "Redmi Note 8 / 8T",
       "aliases": [
-        "Redmi Note 8T",
-        "Redmi Note 8"
+        "Redmi Note 8",
+        "Redmi Note 8T"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "active",
@@ -97,7 +96,7 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [],
-      "release": "2019-11",
+      "release": "2019-08",
       "image": "https://wiki.lineageos.org/images/devices/small/ginkgo.png",
       "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
       "download_url": "https://download.lineageos.org/devices/ginkgo"
@@ -106,10 +105,10 @@
       "codename": "garnet",
       "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
       "aliases": [
-        "POCO X6 5G (India)",
         "Redmi Note 13 Pro 5G (India)",
-        "POCO X6 5G",
+        "POCO X6 5G (India)",
         "Redmi Note 13 Pro 5G (China)",
+        "POCO X6 5G",
         "Redmi Note 13 Pro 5G"
       ],
       "brands": [
@@ -123,11 +122,11 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "23122PCD1I",
         "2312DRA50I",
-        "23122PCD1G",
+        "23122PCD1I",
         "2312DRA50C",
         "2312CRAD3C",
+        "23122PCD1G",
         "2312DRA50G",
         "XIG05"
       ],
@@ -161,9 +160,9 @@
       "codename": "rosemary",
       "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
       "aliases": [
-        "POCO M5s",
-        "Redmi Note 10S",
         "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "POCO M5s",
         "Redmi Note 10S NFC"
       ],
       "brands": [
@@ -177,7 +176,7 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [],
-      "release": "2022-09",
+      "release": "2021-04",
       "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
       "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
       "download_url": "https://download.lineageos.org/devices/rosemary"
@@ -186,9 +185,9 @@
       "codename": "lmi",
       "name": "POCO F2 Pro / Redmi K30 Pro",
       "aliases": [
-        "Redmi K30 Pro",
         "POCO F2 Pro",
-        "Redmi K30 Pro Zoom Edition"
+        "Redmi K30 Pro Zoom Edition",
+        "Redmi K30 Pro"
       ],
       "brands": [
         "redmi",
@@ -201,11 +200,11 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "M2001J11C",
         "M2004J11G",
+        "M2001J11C",
         "M2001J11E"
       ],
-      "release": "2020-03",
+      "release": "2020-05",
       "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
       "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
       "download_url": "https://download.lineageos.org/devices/lmi"
@@ -274,8 +273,8 @@
       "codename": "pyxis",
       "name": "Mi CC9 / Mi 9 Lite",
       "aliases": [
-        "Mi 9 Lite",
-        "Mi CC9"
+        "Mi CC9",
+        "Mi 9 Lite"
       ],
       "brands": [
         "xiaomi"
@@ -287,8 +286,8 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "M1904F3BG",
-        "M1904F3BC"
+        "M1904F3BC",
+        "M1904F3BG"
       ],
       "release": "2019-09",
       "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
@@ -421,10 +420,10 @@
       "codename": "haydn",
       "name": "Mi 11i / Redmi K40 Pro / Redmi K40 Pro+ / Mi 11X Pro",
       "aliases": [
+        "Redmi K40 Pro+",
         "Mi 11i",
-        "Redmi K40 Pro",
         "Mi 11X Pro",
-        "Redmi K40 Pro+"
+        "Redmi K40 Pro"
       ],
       "brands": [
         "xiaomi",
@@ -437,11 +436,11 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "M2012K11G",
         "M2012K11C",
+        "M2012K11G",
         "M2012K11I"
       ],
-      "release": "2021-01",
+      "release": "2021-03",
       "image": "https://wiki.lineageos.org/images/devices/small/haydn.png",
       "wiki_url": "https://wiki.lineageos.org/devices/haydn/",
       "download_url": "https://download.lineageos.org/devices/haydn"
@@ -450,9 +449,9 @@
       "codename": "lisa",
       "name": "11 Lite 5G NE / 11 Lite NE 5G / Mi 11 LE",
       "aliases": [
+        "11 Lite 5G NE",
         "11 Lite NE 5G",
-        "Mi 11 LE",
-        "11 Lite 5G NE"
+        "Mi 11 LE"
       ],
       "brands": [
         "xiaomi"
@@ -464,9 +463,9 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
+        "2109119DG",
         "2109119DI",
-        "2107119DC",
-        "2109119DG"
+        "2107119DC"
       ],
       "release": "2021-09",
       "image": "https://wiki.lineageos.org/images/devices/small/lisa.png",
@@ -477,8 +476,8 @@
       "codename": "marble",
       "name": "POCO F5 / Redmi Note 12 Turbo",
       "aliases": [
-        "Redmi Note 12 Turbo",
         "POCO F5 (Global)",
+        "Redmi Note 12 Turbo",
         "POCO F5 (India)"
       ],
       "brands": [
@@ -492,11 +491,11 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "23049RAD8C",
         "23049PCD8G",
+        "23049RAD8C",
         "23049PCD8I"
       ],
-      "release": "2023-03-28",
+      "release": "2023-05-09",
       "image": "https://wiki.lineageos.org/images/devices/small/marble.png",
       "wiki_url": "https://wiki.lineageos.org/devices/marble/",
       "download_url": "https://download.lineageos.org/devices/marble"
@@ -505,12 +504,12 @@
       "codename": "miatoll",
       "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
       "aliases": [
-        "Redmi Note 9S",
-        "Redmi Note 10 Lite",
-        "POCO M2 Pro",
-        "Redmi Note 9 Pro Max",
         "Redmi Note 9 Pro (Global)",
-        "Redmi Note 9 Pro (India)"
+        "Redmi Note 9S",
+        "Redmi Note 9 Pro (India)",
+        "Redmi Note 9 Pro Max",
+        "Redmi Note 10 Lite",
+        "POCO M2 Pro"
       ],
       "brands": [
         "redmi",
@@ -523,15 +522,15 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
+        "M2003J6B2G",
         "M2003J6A1G",
         "M2003J6A1R",
-        "2109106A1I",
-        "M2003J6CI",
+        "M2003J6A1I",
         "M2003J6B1I",
-        "M2003J6B2G",
-        "M2003J6A1I"
+        "2109106A1I",
+        "M2003J6CI"
       ],
-      "release": "2020-04-30",
+      "release": "2020-05-05",
       "image": "https://wiki.lineageos.org/images/devices/small/miatoll.png",
       "wiki_url": "https://wiki.lineageos.org/devices/miatoll/",
       "download_url": "https://download.lineageos.org/devices/miatoll"
@@ -559,8 +558,8 @@
       "codename": "munch",
       "name": "POCO F4 / Redmi K40S",
       "aliases": [
-        "Redmi K40S",
-        "POCO F4"
+        "POCO F4",
+        "Redmi K40S"
       ],
       "brands": [
         "redmi",
@@ -573,9 +572,9 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "22021211RC",
         "22021211RG",
-        "22021211RI"
+        "22021211RI",
+        "22021211RC"
       ],
       "release": "2022-06",
       "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
@@ -608,9 +607,9 @@
       "codename": "tucana",
       "name": "Mi Note 10 / Note 10 Pro / CC9 Pro",
       "aliases": [
-        "Mi Note 10",
         "Mi CC9 Pro",
-        "Mi Note 10 Pro"
+        "Mi Note 10 Pro",
+        "Mi Note 10"
       ],
       "brands": [
         "xiaomi"
@@ -622,9 +621,9 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
-        "M1910F4G",
         "M1910F4E",
-        "M1910F4S"
+        "M1910F4S",
+        "M1910F4G"
       ],
       "release": "2019-11-11",
       "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
@@ -833,8 +832,8 @@
       "codename": "davinci",
       "name": "Redmi K20 / Mi 9T",
       "aliases": [
-        "Redmi K20 (China)",
         "Mi 9T",
+        "Redmi K20 (China)",
         "Redmi K20 (India)"
       ],
       "brands": [
@@ -848,9 +847,9 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
+        "M1903F10G",
         "M1903F10A",
         "M1903F10C",
-        "M1903F10G",
         "M1903F10I"
       ],
       "release": "2019-06",
@@ -1189,9 +1188,9 @@
       "codename": "sweet",
       "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
       "aliases": [
+        "Redmi Note 10 Pro (India)",
         "Redmi Note 10 Pro",
-        "Redmi Note 10 Pro Max (India)",
-        "Redmi Note 10 Pro (India)"
+        "Redmi Note 10 Pro Max (India)"
       ],
       "brands": [
         "redmi"
@@ -1203,10 +1202,10 @@
       "build_type": "nightly",
       "build_cadence": "W",
       "models": [
+        "M2101K6P",
         "M2101K6G",
         "M2101K6R",
-        "M2101K6I",
-        "M2101K6P"
+        "M2101K6I"
       ],
       "release": "2021-03",
       "image": "https://wiki.lineageos.org/images/devices/small/sweet.png",
@@ -1311,7 +1310,6 @@
         "12T Pro"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "active",
@@ -1337,12 +1335,11 @@
       "name": "Redmi 7A / 8 / 8A / 8A Dual",
       "aliases": [
         "Redmi 8A",
-        "Redmi 7A",
+        "Redmi 8",
         "Redmi 8A Dual",
-        "Redmi 8"
+        "Redmi 7A"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1356,18 +1353,18 @@
         "M1908C3KG",
         "M1908C3KH",
         "M1908C3KI",
+        "M1908C3IC",
+        "M1908C3IE",
+        "M1908C3IG",
+        "M1908C3IH",
+        "M1908C3II",
+        "M2001C3K3I",
         "M1903C3EC",
         "M1903C3EE",
         "M1903C3EG",
         "M1903C3EH",
         "M1903C3EI",
-        "M1903C3ET",
-        "M2001C3K3I",
-        "M1908C3IC",
-        "M1908C3IE",
-        "M1908C3IG",
-        "M1908C3IH",
-        "M1908C3II"
+        "M1903C3ET"
       ],
       "release": "2019-10",
       "image": "https://wiki.lineageos.org/images/devices/small/Mi439_variant2_4.png",
@@ -1378,13 +1375,12 @@
       "codename": "Mi8917",
       "name": "Redmi 4A / 5A / [Note 5A / Y1 - Lite]",
       "aliases": [
+        "Redmi 4A",
         "Redmi Note 5A Lite",
-        "Redmi 5A",
         "Redmi Y1 Lite",
-        "Redmi 4A"
+        "Redmi 5A"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1394,21 +1390,21 @@
       "build_type": null,
       "build_cadence": null,
       "models": [
-        "MDE6",
-        "MDG6",
-        "MDT6",
-        "MCE3B",
-        "MCG3B",
-        "MCI3B",
-        "MCT3B",
-        "MDI6",
         "2016111",
         "2016112",
         "2016116",
-        "2016117"
+        "2016117",
+        "MDE6",
+        "MDG6",
+        "MDT6",
+        "MDI6",
+        "MCE3B",
+        "MCG3B",
+        "MCI3B",
+        "MCT3B"
       ],
-      "release": "2017-08-21",
-      "image": "https://wiki.lineageos.org/images/devices/small/Mi8917_variant3_4.png",
+      "release": "2016-11-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/Mi8917_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8917/",
       "download_url": "https://download.lineageos.org/devices/Mi8917"
     },
@@ -1416,15 +1412,14 @@
       "codename": "Mi8937",
       "name": "Redmi 3S / 3X / 4(X) / [Note 5A / Y1 - Prime]",
       "aliases": [
+        "Redmi 4X",
+        "Redmi 4 (India)",
+        "Redmi 3X",
         "Redmi Y1 Prime",
         "Redmi 3S",
-        "Redmi 4 (India)",
-        "Redmi Note 5A Prime",
-        "Redmi 4X",
-        "Redmi 3X"
+        "Redmi Note 5A Prime"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1434,24 +1429,24 @@
       "build_type": null,
       "build_cadence": null,
       "models": [
+        "MAG138",
+        "MAE136",
+        "MAT136",
+        "MAI132",
+        "2016036",
+        "2016035",
+        "2016033",
         "MDI6S",
         "2016031",
         "2016037",
         "2016032",
         "2016030",
-        "MAI132",
         "MDE6S",
         "MDG6S",
-        "MDT6S",
-        "MAG138",
-        "MAE136",
-        "MAT136",
-        "2016036",
-        "2016035",
-        "2016033"
+        "MDT6S"
       ],
-      "release": "2017-08-21",
-      "image": "https://wiki.lineageos.org/images/devices/small/Mi8937_variant5_6.png",
+      "release": "2017-02-28",
+      "image": "https://wiki.lineageos.org/images/devices/small/santoni.png",
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
       "download_url": "https://download.lineageos.org/devices/Mi8937"
     },
@@ -1484,7 +1479,6 @@
         "Redmi Y3"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1734,7 +1728,6 @@
       "name": "Redmi 3S / 3X",
       "aliases": [],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1791,11 +1784,10 @@
       "codename": "ido",
       "name": "Redmi 3/Prime",
       "aliases": [
-        "Redmi 3",
-        "Redmi 3 Prime"
+        "Redmi 3 Prime",
+        "Redmi 3"
       ],
       "brands": [
-        "xiaomi",
         "redmi"
       ],
       "status": "discontinued",
@@ -1871,8 +1863,8 @@
       "codename": "cancro",
       "name": "Mi 3w and Mi 4",
       "aliases": [
-        "Mi 4",
-        "Mi 3"
+        "Mi 3",
+        "Mi 4"
       ],
       "brands": [
         "xiaomi"
@@ -1884,7 +1876,7 @@
       "build_type": null,
       "build_cadence": null,
       "models": [],
-      "release": "2014-08",
+      "release": "2013-10",
       "image": "https://wiki.lineageos.org/images/devices/small/cancro.png",
       "wiki_url": "https://wiki.lineageos.org/devices/cancro/",
       "download_url": "https://download.lineageos.org/devices/cancro"
