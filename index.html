@@ -1,131 +1,100 @@
-<html>
+<!doctype html>
+<html lang="fr">
 <head>
-    <title>Téléphones Xiaomi avec LineageOS</title>
-    <!-- Charger PyScript -->
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <!-- Style simple pour la lisibilité -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        #device-list {
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        li.supported {
-            background-color: #e6ffe6;
-        }
-        li.discontinued {
-            background-color: #ffe6e6;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Suivez la fraîcheur des builds LineageOS pour les appareils Xiaomi, Redmi et POCO, classés par date de dernière release.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Xiaomi × LineageOS — suivi des builds</title>
+  <link rel="preconnect" href="https://wiki.lineageos.org">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
 </head>
 <body>
-    <h1>Téléphones Xiaomi Supportant LineageOS</h1>
-    <div id="device-list">Chargement des données...</div>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Accueil Xiaomi LineageOS">
+      <span class="brand-mark" aria-hidden="true">XL</span>
+      <span>
+        <strong>Xiaomi × LineageOS</strong>
+        <small>Build tracker</small>
+      </span>
+    </a>
+    <a class="github-link" href="https://github.com/Epikaigle/xiaomi-lineageos" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
 
-    <!-- Code Python incorporé avec PyScript -->
-    <py-script>
-import asyncio
-from pyodide.http import pyfetch
-from bs4 import BeautifulSoup
-import json
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">Suivi automatique des releases officielles</p>
+      <h1 id="page-title">Quels Xiaomi reçoivent encore des builds LineageOS&nbsp;?</h1>
+      <p class="hero-copy">Les appareils Xiaomi, Redmi et POCO sont regroupés par codename puis classés par date de dernière build. Dès qu’une nouvelle build est publiée, le téléphone remonte dans le classement.</p>
+      <div class="stats" aria-live="polite">
+        <div class="stat"><strong id="stat-total">—</strong><span>appareils</span></div>
+        <div class="stat"><strong id="stat-active">—</strong><span>actifs</span></div>
+        <div class="stat"><strong id="stat-recent">—</strong><span>builds ≤ 14 j</span></div>
+        <div class="stat"><strong id="stat-sync">—</strong><span>dernière collecte</span></div>
+      </div>
+    </section>
 
-# Fonction pour récupérer le contenu d'une URL
-async def fetch_url(url):
-    try:
-        response = await pyfetch(url)
-        return await response.text()
-    except Exception as e:
-        print(f"Erreur lors de la récupération de {url}: {e}")
-        return None
+    <section class="controls" aria-label="Filtres des appareils">
+      <div class="control-row">
+        <label class="search-box">
+          <span class="sr-only">Rechercher un téléphone ou un codename</span>
+          <input id="search" type="search" autocomplete="off" placeholder="Rechercher : Mi 10, POCO F3, alioth…">
+        </label>
+        <label class="select-wrap">
+          <span>Tri</span>
+          <select id="sort">
+            <option value="build">Dernière build</option>
+            <option value="lineage">Version LineageOS</option>
+            <option value="name">Nom A → Z</option>
+          </select>
+        </label>
+      </div>
 
-# Récupérer la liste des appareils depuis la page wiki
-async def get_devices():
-    wiki_url = "https://wiki.lineageos.org/devices/"
-    html = await fetch_url(wiki_url)
-    if not html:
-        return []
-    soup = BeautifulSoup(html, 'html.parser')
-    device_cards = soup.find_all('div', class_='device-card')
-    devices = []
-    for card in device_cards:
-        codename = card.get('data-codename', '')
-        name_elem = card.find('h2')
-        oem_elem = card.find('p', class_='device-oem')
-        if not codename or not name_elem or not oem_elem:
-            continue
-        name = name_elem.text.strip()
-        oem = oem_elem.text.strip()
-        status = 'discontinued' if 'discontinued' in card.get('class', []) else 'supported'
-        if oem.lower() == 'xiaomi':
-            devices.append({'codename': codename, 'name': name, 'status': status})
-    return devices
+      <div class="filter-group" aria-label="Marque">
+        <span class="filter-label">Gamme</span>
+        <div id="brand-filters" class="segmented">
+          <button class="is-active" type="button" data-brand="all">Tous <span data-count="all">0</span></button>
+          <button type="button" data-brand="xiaomi">Xiaomi <span data-count="xiaomi">0</span></button>
+          <button type="button" data-brand="redmi">Redmi <span data-count="redmi">0</span></button>
+          <button type="button" data-brand="poco">POCO <span data-count="poco">0</span></button>
+        </div>
+      </div>
 
-# Récupérer la date de la dernière mise à jour pour un appareil supporté
-async def get_last_build_date(codename):
-    api_url = f"https://download.lineageos.org/api/v1/{codename}/nightly"
-    response = await fetch_url(api_url)
-    if not response:
-        return None
-    try:
-        builds = json.loads(response)
-        if builds and isinstance(builds, list):
-            last_build = max(builds, key=lambda x: x.get('date', '0000-00-00'))
-            return last_build.get('date', None)
-    except Exception as e:
-        print(f"Erreur pour {codename}: {e}")
-    return None
+      <div class="filter-group" aria-label="Statut LineageOS">
+        <span class="filter-label">Statut</span>
+        <div id="status-filters" class="segmented">
+          <button class="is-active" type="button" data-status="all">Tous</button>
+          <button type="button" data-status="active">Builds actives</button>
+          <button type="button" data-status="discontinued">Arrêtés</button>
+        </div>
+      </div>
+    </section>
 
-# Fonction principale
-async def main():
-    devices = await get_devices()
-    if not devices:
-        from js import document
-        document.getElementById('device-list').innerHTML = "Erreur lors du chargement des données."
-        return
+    <section class="results-head" aria-live="polite">
+      <div>
+        <strong id="result-count">Chargement…</strong>
+        <p id="result-note">Récupération des données LineageOS.</p>
+      </div>
+      <button id="reset" class="reset-button" type="button" hidden>Réinitialiser les filtres</button>
+    </section>
 
-    # Récupérer les dates pour les appareils supportés
-    for device in devices:
-        if device['status'] == 'supported':
-            device['last_build_date'] = await get_last_build_date(device['codename'])
-        else:
-            device['last_build_date'] = None
+    <section id="device-grid" class="device-grid" aria-live="polite" aria-busy="true">
+      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+      <article class="loading-card"><div class="skeleton image"></div><div class="skeleton line wide"></div><div class="skeleton line"></div></article>
+    </section>
 
-    # Séparer les appareils supportés et discontinués
-    supported_devices = [d for d in devices if d['status'] == 'supported']
-    discontinued_devices = [d for d in devices if d['status'] == 'discontinued']
+    <section class="method">
+      <h2>Comment le classement fonctionne</h2>
+      <p>Les noms viennent des données officielles LineageOS. Les alias commerciaux partageant le même codename sont regroupés, ce qui permet à un modèle d’apparaître dans plusieurs gammes, par exemple Redmi et POCO. Le classement par défaut utilise la date de la dernière build disponible ; l’état « actif » correspond aux appareils présents dans les build targets officiels de LineageOS.</p>
+      <p class="source-note">Sources : LineageOS Wiki, LineageOS Hudson et API de téléchargement LineageOS. Ce site est communautaire et n’est pas affilié à Xiaomi ni à LineageOS.</p>
+    </section>
+  </main>
 
-    # Trier les appareils supportés par date (plus récent en premier)
-    supported_devices.sort(key=lambda x: x['last_build_date'] or '0000-00-00', reverse=True)
-
-    # Combiner les listes : supportés en premier, puis discontinués
-    sorted_devices = supported_devices + discontinued_devices
-
-    # Générer la liste HTML
-    html_list = '<ul>'
-    for device in sorted_devices:
-        status = device['status']
-        date = device['last_build_date'] if device['last_build_date'] else 'N/A'
-        class_name = 'supported' if status == 'supported' else 'discontinued'
-        html_list += f'<li class="{class_name}">{device["name"]} ({device["codename"]}) - {status} - Dernière mise à jour : {date}</li>'
-    html_list += '</ul>'
-
-    # Mettre à jour la page
-    from js import document
-    document.getElementById('device-list').innerHTML = html_list
-
-# Exécuter la fonction principale
-asyncio.ensure_future(main())
-    </py-script>
+  <footer>
+    <span>Xiaomi × LineageOS Build Tracker</span>
+    <span id="footer-updated">Données en cours de chargement</span>
+  </footer>
 </body>
 </html>
