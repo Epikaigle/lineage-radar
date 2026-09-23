@@ -130,26 +130,20 @@ def wiki_metadata(repo: Path) -> dict[str, dict]:
 
 def brands_for(name: str, aliases: list[str]) -> list[str]:
     text = " / ".join([name, *aliases]).lower()
+    has_poco = bool(re.search(r"\bpoco\b", text))
+    has_redmi = bool(re.search(r"\bredmi\b", text))
+    has_xiaomi_label = bool(re.search(r"\bxiaomi\b", text))
+    has_mi_label = bool(re.search(r"\bmi\b", text))
+
     brands = []
-    if "poco" in text:
-        brands.append("poco")
-    if "redmi" in text:
-        brands.append("redmi")
-
-    segments = [
-        s.strip()
-        for s in re.split(r"\s*/\s*|\s+and\s+", text)
-        if s.strip()
-    ]
-    if any(
-        "xiaomi" in segment
-        or re.search(r"\bmi\b", segment)
-        or ("poco" not in segment and "redmi" not in segment)
-        for segment in segments
-    ):
+    if has_xiaomi_label or has_mi_label or not (has_redmi or has_poco):
         brands.append("xiaomi")
+    if has_redmi:
+        brands.append("redmi")
+    if has_poco:
+        brands.append("poco")
 
-    return [brand for brand in ("xiaomi", "redmi", "poco") if brand in brands]
+    return brands
 
 
 def date_from_filename(filename: str | None) -> int | None:
