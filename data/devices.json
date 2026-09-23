@@ -1,0 +1,9 @@
+{
+  "generated_at": null,
+  "sources": {
+    "wiki": "https://github.com/LineageOS/lineage_wiki",
+    "hudson": "https://github.com/LineageOS/hudson",
+    "downloads": "https://download.lineageos.org"
+  },
+  "devices": []
+}
