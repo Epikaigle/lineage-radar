@@ -1,11 +1,54 @@
 {
-  "generated_at": "2026-09-24T04:56:03Z",
+  "generated_at": "2026-09-24T11:50:25Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "thyme",
+      "name": "Mi 10S",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-24T04:50:31Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102J2SC"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/thyme.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thyme/",
+      "download_url": "https://download.lineageos.org/devices/thyme"
+    },
+    {
+      "codename": "cupid",
+      "name": "12",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-24T03:17:02Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201123C",
+        "2201123G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
+      "download_url": "https://download.lineageos.org/devices/cupid"
+    },
     {
       "codename": "mars",
       "name": "Mi 11 Pro",
@@ -1260,27 +1303,6 @@
       "download_url": "https://download.lineageos.org/devices/polaris"
     },
     {
-      "codename": "thyme",
-      "name": "Mi 10S",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-17T03:03:17Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102J2SC"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/thyme.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thyme/",
-      "download_url": "https://download.lineageos.org/devices/thyme"
-    },
-    {
       "codename": "sweet",
       "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
       "aliases": [
@@ -1307,28 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/sweet.png",
       "wiki_url": "https://wiki.lineageos.org/devices/sweet/",
       "download_url": "https://download.lineageos.org/devices/sweet"
-    },
-    {
-      "codename": "cupid",
-      "name": "12",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-17T01:34:54Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201123C",
-        "2201123G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
-      "download_url": "https://download.lineageos.org/devices/cupid"
     },
     {
       "codename": "Mi8917",
