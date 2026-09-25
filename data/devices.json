@@ -1,11 +1,80 @@
 {
-  "generated_at": "2026-09-25T11:54:31Z",
+  "generated_at": "2026-09-25T17:15:14Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "unicorn",
+      "name": "12S Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-25T07:09:59Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2206122SC"
+      ],
+      "release": "2022-07-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/unicorn.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/unicorn/",
+      "download_url": "https://download.lineageos.org/devices/unicorn"
+    },
+    {
+      "codename": "peridot",
+      "name": "Redmi Turbo 3/POCO F6",
+      "aliases": [
+        "POCO F6",
+        "Redmi Turbo 3"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-25T05:40:04Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "24069PC21G",
+        "24069PC21I",
+        "24069RA21C"
+      ],
+      "release": "2024-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
+      "download_url": "https://download.lineageos.org/devices/peridot"
+    },
+    {
+      "codename": "mayfly",
+      "name": "12S",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-25T05:06:27Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2206123SC"
+      ],
+      "release": "2022-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
+      "download_url": "https://download.lineageos.org/devices/mayfly"
+    },
     {
       "codename": "cmi",
       "name": "Mi 10 Pro",
@@ -1243,54 +1312,6 @@
       "download_url": "https://download.lineageos.org/devices/vela"
     },
     {
-      "codename": "peridot",
-      "name": "Redmi Turbo 3/POCO F6",
-      "aliases": [
-        "POCO F6",
-        "Redmi Turbo 3"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-18T06:56:29Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "24069PC21G",
-        "24069PC21I",
-        "24069RA21C"
-      ],
-      "release": "2024-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
-      "download_url": "https://download.lineageos.org/devices/peridot"
-    },
-    {
-      "codename": "unicorn",
-      "name": "12S Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-18T05:21:46Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2206122SC"
-      ],
-      "release": "2022-07-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/unicorn.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/unicorn/",
-      "download_url": "https://download.lineageos.org/devices/unicorn"
-    },
-    {
       "codename": "sagit",
       "name": "Mi 6",
       "aliases": [],
@@ -1308,27 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
       "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
       "download_url": "https://download.lineageos.org/devices/sagit"
-    },
-    {
-      "codename": "mayfly",
-      "name": "12S",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-18T04:01:33Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2206123SC"
-      ],
-      "release": "2022-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
-      "download_url": "https://download.lineageos.org/devices/mayfly"
     },
     {
       "codename": "Mi8917",
