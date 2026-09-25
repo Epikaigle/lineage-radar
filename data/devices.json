@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-09-25T05:01:13Z",
+  "generated_at": "2026-09-25T11:54:31Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-25T01:20:19Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J1G"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
+      "download_url": "https://download.lineageos.org/devices/cmi"
+    },
     {
       "codename": "polaris",
       "name": "Mi MIX 2S",
@@ -1308,27 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
       "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
       "download_url": "https://download.lineageos.org/devices/mayfly"
-    },
-    {
-      "codename": "cmi",
-      "name": "Mi 10 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-18T00:02:08Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J1G"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
-      "download_url": "https://download.lineageos.org/devices/cmi"
     },
     {
       "codename": "Mi8917",
