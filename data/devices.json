@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-09-26T05:03:21Z",
+  "generated_at": "2026-09-26T11:28:51Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-26T03:24:14Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
+      "download_url": "https://download.lineageos.org/devices/lancelot"
+    },
+    {
+      "codename": "apollon",
+      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+      "aliases": [
+        "Mi 10T Pro",
+        "Mi 10T",
+        "Redmi K30S Ultra"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-26T00:05:05Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J3SG",
+        "M2007J3SY",
+        "M2007J3SC"
+      ],
+      "release": "2020-10",
+      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
+      "download_url": "https://download.lineageos.org/devices/apollon"
+    },
     {
       "codename": "sagit",
       "name": "Mi 6",
@@ -1238,53 +1285,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
       "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
       "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "lancelot",
-      "name": "Redmi 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-19T03:22:59Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
-      "download_url": "https://download.lineageos.org/devices/lancelot"
-    },
-    {
-      "codename": "apollon",
-      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
-      "aliases": [
-        "Mi 10T Pro",
-        "Mi 10T",
-        "Redmi K30S Ultra"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-19T01:48:11Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J3SG",
-        "M2007J3SY",
-        "M2007J3SC"
-      ],
-      "release": "2020-10",
-      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
-      "download_url": "https://download.lineageos.org/devices/apollon"
     },
     {
       "codename": "thor",
