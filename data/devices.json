@@ -1,11 +1,40 @@
 {
-  "generated_at": "2026-09-26T21:13:05Z",
+  "generated_at": "2026-09-27T05:22:14Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "davinci",
+      "name": "Redmi K20 / Mi 9T",
+      "aliases": [
+        "Mi 9T",
+        "Redmi K20 (China)",
+        "Redmi K20 (India)"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-27T00:44:55Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1903F10G",
+        "M1903F10A",
+        "M1903F10C",
+        "M1903F10I"
+      ],
+      "release": "2019-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
+      "download_url": "https://download.lineageos.org/devices/davinci"
+    },
     {
       "codename": "dipper",
       "name": "Mi 8",
@@ -1300,35 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/nuwa.png",
       "wiki_url": "https://wiki.lineageos.org/devices/nuwa/",
       "download_url": "https://download.lineageos.org/devices/nuwa"
-    },
-    {
-      "codename": "davinci",
-      "name": "Redmi K20 / Mi 9T",
-      "aliases": [
-        "Mi 9T",
-        "Redmi K20 (China)",
-        "Redmi K20 (India)"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-20T01:25:21Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1903F10G",
-        "M1903F10A",
-        "M1903F10C",
-        "M1903F10I"
-      ],
-      "release": "2019-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
-      "download_url": "https://download.lineageos.org/devices/davinci"
     },
     {
       "codename": "Mi8917",
