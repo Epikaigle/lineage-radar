@@ -1,11 +1,105 @@
 {
-  "generated_at": "2026-09-27T05:22:14Z",
+  "generated_at": "2026-09-27T12:07:01Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "umi",
+      "name": "Mi 10",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-27T04:54:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J2G",
+        "M2001J2I"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/umi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/umi/",
+      "download_url": "https://download.lineageos.org/devices/umi"
+    },
+    {
+      "codename": "mondrian",
+      "name": "POCO F5 Pro / Redmi K60",
+      "aliases": [
+        "POCO F5 Pro",
+        "Redmi K60"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-27T02:43:49Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23013PC75G",
+        "23013RK75C"
+      ],
+      "release": "2023-05-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
+      "download_url": "https://download.lineageos.org/devices/mondrian"
+    },
+    {
+      "codename": "earth",
+      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
+      "aliases": [
+        "Redmi 12C",
+        "POCO C55",
+        "Redmi 12C NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-27T01:45:35Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
+      "download_url": "https://download.lineageos.org/devices/earth"
+    },
+    {
+      "codename": "nuwa",
+      "name": "13 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-27T01:18:00Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2210132G",
+        "2210132C"
+      ],
+      "release": "2022-12-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/nuwa.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/nuwa/",
+      "download_url": "https://download.lineageos.org/devices/nuwa"
+    },
     {
       "codename": "davinci",
       "name": "Redmi K20 / Mi 9T",
@@ -1177,32 +1271,6 @@
       "download_url": "https://download.lineageos.org/devices/vayu"
     },
     {
-      "codename": "mondrian",
-      "name": "POCO F5 Pro / Redmi K60",
-      "aliases": [
-        "POCO F5 Pro",
-        "Redmi K60"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-20T05:56:38Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23013PC75G",
-        "23013RK75C"
-      ],
-      "release": "2023-05-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
-      "download_url": "https://download.lineageos.org/devices/mondrian"
-    },
-    {
       "codename": "natrium",
       "name": "Mi 5s Plus",
       "aliases": [],
@@ -1220,28 +1288,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/natrium.png",
       "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
       "download_url": "https://download.lineageos.org/devices/natrium"
-    },
-    {
-      "codename": "umi",
-      "name": "Mi 10",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-20T05:37:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J2G",
-        "M2001J2I"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/umi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/umi/",
-      "download_url": "https://download.lineageos.org/devices/umi"
     },
     {
       "codename": "grus",
@@ -1266,30 +1312,6 @@
       "download_url": "https://download.lineageos.org/devices/grus"
     },
     {
-      "codename": "earth",
-      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
-      "aliases": [
-        "Redmi 12C",
-        "POCO C55",
-        "Redmi 12C NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-20T03:22:47Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
-      "download_url": "https://download.lineageos.org/devices/earth"
-    },
-    {
       "codename": "perseus",
       "name": "Mi MIX 3",
       "aliases": [],
@@ -1307,28 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
       "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
       "download_url": "https://download.lineageos.org/devices/perseus"
-    },
-    {
-      "codename": "nuwa",
-      "name": "13 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-20T01:52:09Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2210132G",
-        "2210132C"
-      ],
-      "release": "2022-12-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/nuwa.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/nuwa/",
-      "download_url": "https://download.lineageos.org/devices/nuwa"
     },
     {
       "codename": "Mi8917",
