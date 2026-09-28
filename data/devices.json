@@ -1,11 +1,87 @@
 {
-  "generated_at": "2026-09-28T14:01:09Z",
+  "generated_at": "2026-09-28T23:18:56Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "surya",
+      "name": "POCO X3 NFC",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-28T10:24:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J20CG",
+        "M2007J20CI"
+      ],
+      "release": "2020-09-08",
+      "image": "https://wiki.lineageos.org/images/devices/small/surya.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/surya/",
+      "download_url": "https://download.lineageos.org/devices/surya"
+    },
+    {
+      "codename": "miatoll",
+      "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
+      "aliases": [
+        "Redmi Note 9 Pro (Global)",
+        "Redmi Note 9S",
+        "Redmi Note 9 Pro (India)",
+        "Redmi Note 9 Pro Max",
+        "Redmi Note 10 Lite",
+        "POCO M2 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-28T07:14:22Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2003J6B2G",
+        "M2003J6A1G",
+        "M2003J6A1R",
+        "M2003J6A1I",
+        "M2003J6B1I",
+        "2109106A1I",
+        "M2003J6CI"
+      ],
+      "release": "2020-05-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/miatoll.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/miatoll/",
+      "download_url": "https://download.lineageos.org/devices/miatoll"
+    },
+    {
+      "codename": "scorpio",
+      "name": "Mi Note 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-28T07:06:00Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/scorpio.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
+      "download_url": "https://download.lineageos.org/devices/scorpio"
+    },
     {
       "codename": "munch",
       "name": "POCO F4 / Redmi K40S",
@@ -1253,82 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/marble.png",
       "wiki_url": "https://wiki.lineageos.org/devices/marble/",
       "download_url": "https://download.lineageos.org/devices/marble"
-    },
-    {
-      "codename": "miatoll",
-      "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
-      "aliases": [
-        "Redmi Note 9 Pro (Global)",
-        "Redmi Note 9S",
-        "Redmi Note 9 Pro (India)",
-        "Redmi Note 9 Pro Max",
-        "Redmi Note 10 Lite",
-        "POCO M2 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-21T06:43:29Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2003J6B2G",
-        "M2003J6A1G",
-        "M2003J6A1R",
-        "M2003J6A1I",
-        "M2003J6B1I",
-        "2109106A1I",
-        "M2003J6CI"
-      ],
-      "release": "2020-05-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/miatoll.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/miatoll/",
-      "download_url": "https://download.lineageos.org/devices/miatoll"
-    },
-    {
-      "codename": "scorpio",
-      "name": "Mi Note 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-21T05:41:44Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/scorpio.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
-      "download_url": "https://download.lineageos.org/devices/scorpio"
-    },
-    {
-      "codename": "surya",
-      "name": "POCO X3 NFC",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-21T02:13:18Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J20CG",
-        "M2007J20CI"
-      ],
-      "release": "2020-09-08",
-      "image": "https://wiki.lineageos.org/images/devices/small/surya.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/surya/",
-      "download_url": "https://download.lineageos.org/devices/surya"
     },
     {
       "codename": "Mi8917",
