@@ -1,11 +1,87 @@
 {
-  "generated_at": "2026-09-28T05:28:16Z",
+  "generated_at": "2026-09-28T14:01:09Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "munch",
+      "name": "POCO F4 / Redmi K40S",
+      "aliases": [
+        "POCO F4",
+        "Redmi K40S"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-28T03:42:34Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22021211RG",
+        "22021211RI",
+        "22021211RC"
+      ],
+      "release": "2022-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/munch/",
+      "download_url": "https://download.lineageos.org/devices/munch"
+    },
+    {
+      "codename": "fuxi",
+      "name": "13",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-28T02:34:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2211133G",
+        "2211133C"
+      ],
+      "release": "2022-12-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
+      "download_url": "https://download.lineageos.org/devices/fuxi"
+    },
+    {
+      "codename": "tucana",
+      "name": "Mi Note 10 / Note 10 Pro / CC9 Pro",
+      "aliases": [
+        "Mi CC9 Pro",
+        "Mi Note 10 Pro",
+        "Mi Note 10"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-28T00:04:37Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1910F4E",
+        "M1910F4S",
+        "M1910F4G"
+      ],
+      "release": "2019-11-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
+      "download_url": "https://download.lineageos.org/devices/tucana"
+    },
     {
       "codename": "vayu",
       "name": "POCO X3 Pro",
@@ -1233,33 +1309,6 @@
       "download_url": "https://download.lineageos.org/devices/scorpio"
     },
     {
-      "codename": "munch",
-      "name": "POCO F4 / Redmi K40S",
-      "aliases": [
-        "POCO F4",
-        "Redmi K40S"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-21T04:07:32Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22021211RG",
-        "22021211RI",
-        "22021211RC"
-      ],
-      "release": "2022-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/munch/",
-      "download_url": "https://download.lineageos.org/devices/munch"
-    },
-    {
       "codename": "surya",
       "name": "POCO X3 NFC",
       "aliases": [],
@@ -1280,55 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/surya.png",
       "wiki_url": "https://wiki.lineageos.org/devices/surya/",
       "download_url": "https://download.lineageos.org/devices/surya"
-    },
-    {
-      "codename": "tucana",
-      "name": "Mi Note 10 / Note 10 Pro / CC9 Pro",
-      "aliases": [
-        "Mi CC9 Pro",
-        "Mi Note 10 Pro",
-        "Mi Note 10"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-21T01:19:10Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1910F4E",
-        "M1910F4S",
-        "M1910F4G"
-      ],
-      "release": "2019-11-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
-      "download_url": "https://download.lineageos.org/devices/tucana"
-    },
-    {
-      "codename": "fuxi",
-      "name": "13",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-21T00:07:49Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2211133G",
-        "2211133C"
-      ],
-      "release": "2022-12-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
-      "download_url": "https://download.lineageos.org/devices/fuxi"
     },
     {
       "codename": "Mi8917",
