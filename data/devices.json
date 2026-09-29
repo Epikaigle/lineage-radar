@@ -1,11 +1,134 @@
 {
-  "generated_at": "2026-09-29T12:57:30Z",
+  "generated_at": "2026-09-29T22:18:51Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "ursa",
+      "name": "Mi 8 Explorer Edition",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T13:20:00Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/ursa.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/ursa/",
+      "download_url": "https://download.lineageos.org/devices/ursa"
+    },
+    {
+      "codename": "equuleus",
+      "name": "Mi 8 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T12:28:23Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/equuleus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/equuleus/",
+      "download_url": "https://download.lineageos.org/devices/equuleus"
+    },
+    {
+      "codename": "shark",
+      "name": "Black Shark",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T09:02:06Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "SKR-A0",
+        "SKR-H0"
+      ],
+      "release": "2018-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/shark.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/shark/",
+      "download_url": "https://download.lineageos.org/devices/shark"
+    },
+    {
+      "codename": "pyxis",
+      "name": "Mi CC9 / Mi 9 Lite",
+      "aliases": [
+        "Mi CC9",
+        "Mi 9 Lite"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T07:58:43Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1904F3BC",
+        "M1904F3BG"
+      ],
+      "release": "2019-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
+      "download_url": "https://download.lineageos.org/devices/pyxis"
+    },
+    {
+      "codename": "chiron",
+      "name": "Mi MIX 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T06:37:03Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2017-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/chiron.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/chiron/",
+      "download_url": "https://download.lineageos.org/devices/chiron"
+    },
+    {
+      "codename": "beryllium",
+      "name": "POCO F1",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-29T04:55:20Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-08",
+      "image": "https://wiki.lineageos.org/images/devices/small/beryllium.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
+      "download_url": "https://download.lineageos.org/devices/beryllium"
+    },
     {
       "codename": "zeus",
       "name": "12 Pro",
@@ -1206,129 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
       "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
       "download_url": "https://download.lineageos.org/devices/lmi"
-    },
-    {
-      "codename": "beryllium",
-      "name": "POCO F1",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T10:18:03Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-08",
-      "image": "https://wiki.lineageos.org/images/devices/small/beryllium.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
-      "download_url": "https://download.lineageos.org/devices/beryllium"
-    },
-    {
-      "codename": "shark",
-      "name": "Black Shark",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T09:48:50Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "SKR-A0",
-        "SKR-H0"
-      ],
-      "release": "2018-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/shark.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/shark/",
-      "download_url": "https://download.lineageos.org/devices/shark"
-    },
-    {
-      "codename": "equuleus",
-      "name": "Mi 8 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T08:57:08Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/equuleus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/equuleus/",
-      "download_url": "https://download.lineageos.org/devices/equuleus"
-    },
-    {
-      "codename": "pyxis",
-      "name": "Mi CC9 / Mi 9 Lite",
-      "aliases": [
-        "Mi CC9",
-        "Mi 9 Lite"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T08:08:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1904F3BC",
-        "M1904F3BG"
-      ],
-      "release": "2019-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
-      "download_url": "https://download.lineageos.org/devices/pyxis"
-    },
-    {
-      "codename": "chiron",
-      "name": "Mi MIX 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T03:39:59Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2017-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/chiron.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/chiron/",
-      "download_url": "https://download.lineageos.org/devices/chiron"
-    },
-    {
-      "codename": "ursa",
-      "name": "Mi 8 Explorer Edition",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-22T03:18:34Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/ursa.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/ursa/",
-      "download_url": "https://download.lineageos.org/devices/ursa"
     },
     {
       "codename": "Mi8917",
