@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-09-28T23:18:56Z",
+  "generated_at": "2026-09-29T05:47:22Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cas",
+      "name": "Mi 10 Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-29T00:05:20Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J1SC"
+      ],
+      "release": "2020-08-16",
+      "image": "https://wiki.lineageos.org/images/devices/small/cas.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cas/",
+      "download_url": "https://download.lineageos.org/devices/cas"
+    },
     {
       "codename": "surya",
       "name": "POCO X3 NFC",
@@ -1142,27 +1163,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/merlinx.png",
       "wiki_url": "https://wiki.lineageos.org/devices/merlinx/",
       "download_url": "https://download.lineageos.org/devices/merlinx"
-    },
-    {
-      "codename": "cas",
-      "name": "Mi 10 Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-22T04:07:29Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J1SC"
-      ],
-      "release": "2020-08-16",
-      "image": "https://wiki.lineageos.org/images/devices/small/cas.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cas/",
-      "download_url": "https://download.lineageos.org/devices/cas"
     },
     {
       "codename": "zeus",
