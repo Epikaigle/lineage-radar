@@ -1,11 +1,68 @@
 {
-  "generated_at": "2026-09-29T22:18:51Z",
+  "generated_at": "2026-09-30T05:36:39Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "diting",
+      "name": "12T Pro / Redmi K50 Ultra",
+      "aliases": [
+        "Redmi K50 Ultra",
+        "12T Pro"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T00:04:46Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22081212C",
+        "22081212UG",
+        "22081212R",
+        "22200414R",
+        "A201XM"
+      ],
+      "release": "2022-08-25",
+      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
+      "download_url": "https://download.lineageos.org/devices/diting"
+    },
+    {
+      "codename": "alioth",
+      "name": "POCO F3 / Redmi K40 / Mi 11X",
+      "aliases": [
+        "Redmi K40",
+        "Mi 11X",
+        "POCO F3"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T00:02:13Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2012K11AC",
+        "M2012K11AI",
+        "M2012K11AG"
+      ],
+      "release": "2021-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
+      "download_url": "https://download.lineageos.org/devices/alioth"
+    },
     {
       "codename": "ursa",
       "name": "Mi 8 Explorer Edition",
@@ -1072,34 +1129,6 @@
       "download_url": "https://download.lineageos.org/devices/gemini"
     },
     {
-      "codename": "diting",
-      "name": "12T Pro / Redmi K50 Ultra",
-      "aliases": [
-        "Redmi K50 Ultra",
-        "12T Pro"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T06:23:59Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22081212C",
-        "22081212UG",
-        "22081212R",
-        "22200414R",
-        "A201XM"
-      ],
-      "release": "2022-08-25",
-      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
-      "download_url": "https://download.lineageos.org/devices/diting"
-    },
-    {
       "codename": "gauguin",
       "name": "Mi 10T Lite 5G / Mi 10i 5G / Redmi Note 9 Pro 5G",
       "aliases": [
@@ -1170,35 +1199,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
       "wiki_url": "https://wiki.lineageos.org/devices/violet/",
       "download_url": "https://download.lineageos.org/devices/violet"
-    },
-    {
-      "codename": "alioth",
-      "name": "POCO F3 / Redmi K40 / Mi 11X",
-      "aliases": [
-        "Redmi K40",
-        "Mi 11X",
-        "POCO F3"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T02:32:22Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2012K11AC",
-        "M2012K11AI",
-        "M2012K11AG"
-      ],
-      "release": "2021-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
-      "download_url": "https://download.lineageos.org/devices/alioth"
     },
     {
       "codename": "ginkgo",
