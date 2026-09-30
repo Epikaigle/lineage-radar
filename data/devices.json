@@ -1,11 +1,30 @@
 {
-  "generated_at": "2026-09-30T12:39:15Z",
+  "generated_at": "2026-09-30T22:18:46Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "gemini",
+      "name": "Mi 5",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-09-30T07:06:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
+      "download_url": "https://download.lineageos.org/devices/gemini"
+    },
     {
       "codename": "violet",
       "name": "Redmi Note 7 Pro",
@@ -1310,25 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
       "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
       "download_url": "https://download.lineageos.org/devices/cupid"
-    },
-    {
-      "codename": "gemini",
-      "name": "Mi 5",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-23T07:26:30Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
-      "download_url": "https://download.lineageos.org/devices/gemini"
     },
     {
       "codename": "Mi8917",
