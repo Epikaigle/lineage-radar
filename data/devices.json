@@ -1,11 +1,234 @@
 {
-  "generated_at": "2026-09-30T05:36:39Z",
+  "generated_at": "2026-09-30T12:39:15Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "violet",
+      "name": "Redmi Note 7 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T04:48:13Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1901F7S",
+        "M1901F7BE"
+      ],
+      "release": "2019-03-13",
+      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
+      "download_url": "https://download.lineageos.org/devices/violet"
+    },
+    {
+      "codename": "rosemary",
+      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
+      "aliases": [
+        "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "POCO M5s",
+        "Redmi Note 10S NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T04:47:01Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2021-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "download_url": "https://download.lineageos.org/devices/rosemary"
+    },
+    {
+      "codename": "mars",
+      "name": "Mi 11 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T03:45:39Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102K1AC"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
+      "download_url": "https://download.lineageos.org/devices/mars"
+    },
+    {
+      "codename": "zizhan",
+      "name": "MIX Fold 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T03:39:16Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22061218C"
+      ],
+      "release": "2022-08-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
+      "download_url": "https://download.lineageos.org/devices/zizhan"
+    },
+    {
+      "codename": "lmi",
+      "name": "POCO F2 Pro / Redmi K30 Pro",
+      "aliases": [
+        "POCO F2 Pro",
+        "Redmi K30 Pro Zoom Edition",
+        "Redmi K30 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T02:32:06Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2004J11G",
+        "M2001J11C",
+        "M2001J11E"
+      ],
+      "release": "2020-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
+      "download_url": "https://download.lineageos.org/devices/lmi"
+    },
+    {
+      "codename": "venus",
+      "name": "Mi 11",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T02:32:05Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2011K2C",
+        "M2011K2G"
+      ],
+      "release": "2020-12",
+      "image": "https://wiki.lineageos.org/images/devices/small/venus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/venus/",
+      "download_url": "https://download.lineageos.org/devices/venus"
+    },
+    {
+      "codename": "gauguin",
+      "name": "Mi 10T Lite 5G / Mi 10i 5G / Redmi Note 9 Pro 5G",
+      "aliases": [
+        "Mi 10i 5G",
+        "Mi 10T Lite 5G",
+        "Redmi Note 9 Pro 5G"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T01:59:06Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J17I",
+        "M2007J17G",
+        "M2007J17C"
+      ],
+      "release": "2021-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
+      "download_url": "https://download.lineageos.org/devices/gauguin"
+    },
+    {
+      "codename": "garnet",
+      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
+      "aliases": [
+        "Redmi Note 13 Pro 5G (India)",
+        "POCO X6 5G (India)",
+        "Redmi Note 13 Pro 5G (China)",
+        "POCO X6 5G",
+        "Redmi Note 13 Pro 5G"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T01:56:39Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2312DRA50I",
+        "23122PCD1I",
+        "2312DRA50C",
+        "2312CRAD3C",
+        "23122PCD1G",
+        "2312DRA50G",
+        "XIG05"
+      ],
+      "release": "2024-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
+      "download_url": "https://download.lineageos.org/devices/garnet"
+    },
+    {
+      "codename": "ginkgo",
+      "name": "Redmi Note 8 / 8T",
+      "aliases": [
+        "Redmi Note 8",
+        "Redmi Note 8T"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-09-30T01:14:17Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2019-08",
+      "image": "https://wiki.lineageos.org/images/devices/small/ginkgo.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
+      "download_url": "https://download.lineageos.org/devices/ginkgo"
+    },
     {
       "codename": "diting",
       "name": "12T Pro / Redmi K50 Ultra",
@@ -1089,27 +1312,6 @@
       "download_url": "https://download.lineageos.org/devices/cupid"
     },
     {
-      "codename": "mars",
-      "name": "Mi 11 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T07:44:01Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102K1AC"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
-      "download_url": "https://download.lineageos.org/devices/mars"
-    },
-    {
       "codename": "gemini",
       "name": "Mi 5",
       "aliases": [],
@@ -1127,208 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
       "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
       "download_url": "https://download.lineageos.org/devices/gemini"
-    },
-    {
-      "codename": "gauguin",
-      "name": "Mi 10T Lite 5G / Mi 10i 5G / Redmi Note 9 Pro 5G",
-      "aliases": [
-        "Mi 10i 5G",
-        "Mi 10T Lite 5G",
-        "Redmi Note 9 Pro 5G"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T06:18:00Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J17I",
-        "M2007J17G",
-        "M2007J17C"
-      ],
-      "release": "2021-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
-      "download_url": "https://download.lineageos.org/devices/gauguin"
-    },
-    {
-      "codename": "venus",
-      "name": "Mi 11",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T05:02:52Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2011K2C",
-        "M2011K2G"
-      ],
-      "release": "2020-12",
-      "image": "https://wiki.lineageos.org/images/devices/small/venus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/venus/",
-      "download_url": "https://download.lineageos.org/devices/venus"
-    },
-    {
-      "codename": "violet",
-      "name": "Redmi Note 7 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T03:49:52Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1901F7S",
-        "M1901F7BE"
-      ],
-      "release": "2019-03-13",
-      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
-      "download_url": "https://download.lineageos.org/devices/violet"
-    },
-    {
-      "codename": "ginkgo",
-      "name": "Redmi Note 8 / 8T",
-      "aliases": [
-        "Redmi Note 8",
-        "Redmi Note 8T"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T02:11:54Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2019-08",
-      "image": "https://wiki.lineageos.org/images/devices/small/ginkgo.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
-      "download_url": "https://download.lineageos.org/devices/ginkgo"
-    },
-    {
-      "codename": "garnet",
-      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
-      "aliases": [
-        "Redmi Note 13 Pro 5G (India)",
-        "POCO X6 5G (India)",
-        "Redmi Note 13 Pro 5G (China)",
-        "POCO X6 5G",
-        "Redmi Note 13 Pro 5G"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T01:49:20Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2312DRA50I",
-        "23122PCD1I",
-        "2312DRA50C",
-        "2312CRAD3C",
-        "23122PCD1G",
-        "2312DRA50G",
-        "XIG05"
-      ],
-      "release": "2024-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
-      "download_url": "https://download.lineageos.org/devices/garnet"
-    },
-    {
-      "codename": "zizhan",
-      "name": "MIX Fold 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T00:06:37Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22061218C"
-      ],
-      "release": "2022-08-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
-      "download_url": "https://download.lineageos.org/devices/zizhan"
-    },
-    {
-      "codename": "rosemary",
-      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
-      "aliases": [
-        "Redmi Note 10S Latin America",
-        "Redmi Note 10S",
-        "POCO M5s",
-        "Redmi Note 10S NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T00:04:03Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2021-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "download_url": "https://download.lineageos.org/devices/rosemary"
-    },
-    {
-      "codename": "lmi",
-      "name": "POCO F2 Pro / Redmi K30 Pro",
-      "aliases": [
-        "POCO F2 Pro",
-        "Redmi K30 Pro Zoom Edition",
-        "Redmi K30 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-23T00:02:14Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2004J11G",
-        "M2001J11C",
-        "M2001J11E"
-      ],
-      "release": "2020-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
-      "download_url": "https://download.lineageos.org/devices/lmi"
     },
     {
       "codename": "Mi8917",
