@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-10-02T05:42:37Z",
+  "generated_at": "2026-10-02T12:40:39Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "mayfly",
+      "name": "12S",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-02T02:40:54Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2206123SC"
+      ],
+      "release": "2022-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
+      "download_url": "https://download.lineageos.org/devices/mayfly"
+    },
     {
       "codename": "cmi",
       "name": "Mi 10 Pro",
@@ -1308,27 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
       "download_url": "https://download.lineageos.org/devices/peridot"
-    },
-    {
-      "codename": "mayfly",
-      "name": "12S",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-25T05:06:27Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2206123SC"
-      ],
-      "release": "2022-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
-      "download_url": "https://download.lineageos.org/devices/mayfly"
     },
     {
       "codename": "Mi8917",
