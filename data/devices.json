@@ -1,11 +1,100 @@
 {
-  "generated_at": "2026-10-03T05:22:05Z",
+  "generated_at": "2026-10-03T11:43:07Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "dipper",
+      "name": "Mi 8",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-03T02:57:55Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
+      "download_url": "https://download.lineageos.org/devices/dipper"
+    },
+    {
+      "codename": "renoir",
+      "name": "Mi 11 Lite 5G",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-03T02:25:27Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K9G",
+        "M2101K9C",
+        "M2101K9R"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
+      "download_url": "https://download.lineageos.org/devices/renoir"
+    },
+    {
+      "codename": "thor",
+      "name": "12S Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-03T01:41:55Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2203121C"
+      ],
+      "release": "2022-07-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
+      "download_url": "https://download.lineageos.org/devices/thor"
+    },
+    {
+      "codename": "vermeer",
+      "name": "POCO F6 Pro / Redmi K70",
+      "aliases": [
+        "POCO F6 Pro",
+        "Redmi K70"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-03T01:04:14Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23113RKC6G",
+        "23113RKC6C"
+      ],
+      "release": "2024-05-28",
+      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
+      "download_url": "https://download.lineageos.org/devices/vermeer"
+    },
     {
       "codename": "vela",
       "name": "Mi CC9 Meitu Edition",
@@ -1174,72 +1263,6 @@
       "download_url": "https://download.lineageos.org/devices/davinci"
     },
     {
-      "codename": "dipper",
-      "name": "Mi 8",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-26T09:54:12Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
-      "download_url": "https://download.lineageos.org/devices/dipper"
-    },
-    {
-      "codename": "vermeer",
-      "name": "POCO F6 Pro / Redmi K70",
-      "aliases": [
-        "POCO F6 Pro",
-        "Redmi K70"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-26T07:05:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23113RKC6G",
-        "23113RKC6C"
-      ],
-      "release": "2024-05-28",
-      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
-      "download_url": "https://download.lineageos.org/devices/vermeer"
-    },
-    {
-      "codename": "thor",
-      "name": "12S Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-26T06:57:59Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2203121C"
-      ],
-      "release": "2022-07-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
-      "download_url": "https://download.lineageos.org/devices/thor"
-    },
-    {
       "codename": "socrates",
       "name": "Redmi K60 Pro",
       "aliases": [],
@@ -1259,29 +1282,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
       "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
       "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "renoir",
-      "name": "Mi 11 Lite 5G",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-26T06:05:14Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K9G",
-        "M2101K9C",
-        "M2101K9R"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
-      "download_url": "https://download.lineageos.org/devices/renoir"
     },
     {
       "codename": "lancelot",
