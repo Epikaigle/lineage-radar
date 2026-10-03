@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-10-03T16:20:19Z",
+  "generated_at": "2026-10-03T21:20:07Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "socrates",
+      "name": "Redmi K60 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-03T05:58:54Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22127RK46C"
+      ],
+      "release": "2022-12-27",
+      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
+      "download_url": "https://download.lineageos.org/devices/socrates"
+    },
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-03T05:48:09Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
+      "download_url": "https://download.lineageos.org/devices/lancelot"
+    },
     {
       "codename": "apollon",
       "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
@@ -1289,46 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
       "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
       "download_url": "https://download.lineageos.org/devices/davinci"
-    },
-    {
-      "codename": "socrates",
-      "name": "Redmi K60 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-26T06:54:18Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22127RK46C"
-      ],
-      "release": "2022-12-27",
-      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
-      "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "lancelot",
-      "name": "Redmi 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-26T03:24:14Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
-      "download_url": "https://download.lineageos.org/devices/lancelot"
     },
     {
       "codename": "Mi8917",
