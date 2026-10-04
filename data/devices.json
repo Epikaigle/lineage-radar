@@ -1,11 +1,71 @@
 {
-  "generated_at": "2026-10-04T12:25:27Z",
+  "generated_at": "2026-10-04T21:30:51Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "perseus",
+      "name": "Mi MIX 3",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-04T06:06:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
+      "download_url": "https://download.lineageos.org/devices/perseus"
+    },
+    {
+      "codename": "natrium",
+      "name": "Mi 5s Plus",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-04T05:31:37Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-10",
+      "image": "https://wiki.lineageos.org/images/devices/small/natrium.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
+      "download_url": "https://download.lineageos.org/devices/natrium"
+    },
+    {
+      "codename": "vayu",
+      "name": "POCO X3 Pro",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-04T05:00:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102J20SG",
+        "M2102J20SI"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
+      "download_url": "https://download.lineageos.org/devices/vayu"
+    },
     {
       "codename": "mondrian",
       "name": "POCO F5 Pro / Redmi K60",
@@ -1269,66 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
       "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
       "download_url": "https://download.lineageos.org/devices/tucana"
-    },
-    {
-      "codename": "vayu",
-      "name": "POCO X3 Pro",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-27T12:30:01Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102J20SG",
-        "M2102J20SI"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
-      "download_url": "https://download.lineageos.org/devices/vayu"
-    },
-    {
-      "codename": "perseus",
-      "name": "Mi MIX 3",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-27T11:22:49Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
-      "download_url": "https://download.lineageos.org/devices/perseus"
-    },
-    {
-      "codename": "natrium",
-      "name": "Mi 5s Plus",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-09-27T09:18:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-10",
-      "image": "https://wiki.lineageos.org/images/devices/small/natrium.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
-      "download_url": "https://download.lineageos.org/devices/natrium"
     },
     {
       "codename": "Mi8917",
