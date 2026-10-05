@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-10-04T21:30:51Z",
+  "generated_at": "2026-10-05T05:46:01Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "fuxi",
+      "name": "13",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-05T00:02:06Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2211133G",
+        "2211133C"
+      ],
+      "release": "2022-12-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
+      "download_url": "https://download.lineageos.org/devices/fuxi"
+    },
     {
       "codename": "perseus",
       "name": "Mi MIX 3",
@@ -1280,28 +1302,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
       "wiki_url": "https://wiki.lineageos.org/devices/munch/",
       "download_url": "https://download.lineageos.org/devices/munch"
-    },
-    {
-      "codename": "fuxi",
-      "name": "13",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-28T02:34:12Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2211133G",
-        "2211133C"
-      ],
-      "release": "2022-12-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
-      "download_url": "https://download.lineageos.org/devices/fuxi"
     },
     {
       "codename": "tucana",
