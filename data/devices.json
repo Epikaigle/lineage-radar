@@ -1,11 +1,64 @@
 {
-  "generated_at": "2026-10-06T18:24:53Z",
+  "generated_at": "2026-10-07T06:04:32Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "rosemary",
+      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
+      "aliases": [
+        "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "POCO M5s",
+        "Redmi Note 10S NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-07T00:02:10Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2021-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "download_url": "https://download.lineageos.org/devices/rosemary"
+    },
+    {
+      "codename": "lmi",
+      "name": "POCO F2 Pro / Redmi K30 Pro",
+      "aliases": [
+        "POCO F2 Pro",
+        "Redmi K30 Pro Zoom Edition",
+        "Redmi K30 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-07T00:02:09Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2004J11G",
+        "M2001J11C",
+        "M2001J11E"
+      ],
+      "release": "2020-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
+      "download_url": "https://download.lineageos.org/devices/lmi"
+    },
     {
       "codename": "shark",
       "name": "Black Shark",
@@ -1073,31 +1126,6 @@
       "download_url": "https://download.lineageos.org/devices/violet"
     },
     {
-      "codename": "rosemary",
-      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
-      "aliases": [
-        "Redmi Note 10S Latin America",
-        "Redmi Note 10S",
-        "POCO M5s",
-        "Redmi Note 10S NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-30T04:47:01Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2021-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "download_url": "https://download.lineageos.org/devices/rosemary"
-    },
-    {
       "codename": "mars",
       "name": "Mi 11 Pro",
       "aliases": [],
@@ -1138,34 +1166,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
       "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
       "download_url": "https://download.lineageos.org/devices/zizhan"
-    },
-    {
-      "codename": "lmi",
-      "name": "POCO F2 Pro / Redmi K30 Pro",
-      "aliases": [
-        "POCO F2 Pro",
-        "Redmi K30 Pro Zoom Edition",
-        "Redmi K30 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-30T02:32:06Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2004J11G",
-        "M2001J11C",
-        "M2001J11E"
-      ],
-      "release": "2020-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
-      "download_url": "https://download.lineageos.org/devices/lmi"
     },
     {
       "codename": "venus",
