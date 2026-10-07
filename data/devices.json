@@ -1,11 +1,84 @@
 {
-  "generated_at": "2026-10-07T13:29:20Z",
+  "generated_at": "2026-10-07T23:07:46Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "violet",
+      "name": "Redmi Note 7 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-07T06:00:26Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1901F7S",
+        "M1901F7BE"
+      ],
+      "release": "2019-03-13",
+      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
+      "download_url": "https://download.lineageos.org/devices/violet"
+    },
+    {
+      "codename": "alioth",
+      "name": "POCO F3 / Redmi K40 / Mi 11X",
+      "aliases": [
+        "Redmi K40",
+        "Mi 11X",
+        "POCO F3"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-07T05:42:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2012K11AC",
+        "M2012K11AI",
+        "M2012K11AG"
+      ],
+      "release": "2021-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
+      "download_url": "https://download.lineageos.org/devices/alioth"
+    },
+    {
+      "codename": "venus",
+      "name": "Mi 11",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-07T05:19:09Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2011K2C",
+        "M2011K2G"
+      ],
+      "release": "2020-12",
+      "image": "https://wiki.lineageos.org/images/devices/small/venus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/venus/",
+      "download_url": "https://download.lineageos.org/devices/venus"
+    },
     {
       "codename": "garnet",
       "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
@@ -1256,79 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
       "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
       "download_url": "https://download.lineageos.org/devices/cupid"
-    },
-    {
-      "codename": "violet",
-      "name": "Redmi Note 7 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-30T04:48:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1901F7S",
-        "M1901F7BE"
-      ],
-      "release": "2019-03-13",
-      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
-      "download_url": "https://download.lineageos.org/devices/violet"
-    },
-    {
-      "codename": "venus",
-      "name": "Mi 11",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-30T02:32:05Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2011K2C",
-        "M2011K2G"
-      ],
-      "release": "2020-12",
-      "image": "https://wiki.lineageos.org/images/devices/small/venus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/venus/",
-      "download_url": "https://download.lineageos.org/devices/venus"
-    },
-    {
-      "codename": "alioth",
-      "name": "POCO F3 / Redmi K40 / Mi 11X",
-      "aliases": [
-        "Redmi K40",
-        "Mi 11X",
-        "POCO F3"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-09-30T00:02:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2012K11AC",
-        "M2012K11AI",
-        "M2012K11AG"
-      ],
-      "release": "2021-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
-      "download_url": "https://download.lineageos.org/devices/alioth"
     },
     {
       "codename": "Mi8917",
