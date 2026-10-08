@@ -1,11 +1,82 @@
 {
-  "generated_at": "2026-10-08T06:09:43Z",
+  "generated_at": "2026-10-08T13:35:07Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cupid",
+      "name": "12",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-08T03:03:48Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201123C",
+        "2201123G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
+      "download_url": "https://download.lineageos.org/devices/cupid"
+    },
+    {
+      "codename": "sweet",
+      "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
+      "aliases": [
+        "Redmi Note 10 Pro (India)",
+        "Redmi Note 10 Pro",
+        "Redmi Note 10 Pro Max (India)"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-08T02:44:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K6P",
+        "M2101K6G",
+        "M2101K6R",
+        "M2101K6I"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/sweet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/sweet/",
+      "download_url": "https://download.lineageos.org/devices/sweet"
+    },
+    {
+      "codename": "thyme",
+      "name": "Mi 10S",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-08T02:02:37Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102J2SC"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/thyme.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thyme/",
+      "download_url": "https://download.lineageos.org/devices/thyme"
+    },
     {
       "codename": "violet",
       "name": "Redmi Note 7 Pro",
@@ -1258,77 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/polaris.png",
       "wiki_url": "https://wiki.lineageos.org/devices/polaris/",
       "download_url": "https://download.lineageos.org/devices/polaris"
-    },
-    {
-      "codename": "thyme",
-      "name": "Mi 10S",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-01T03:44:58Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102J2SC"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/thyme.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thyme/",
-      "download_url": "https://download.lineageos.org/devices/thyme"
-    },
-    {
-      "codename": "sweet",
-      "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
-      "aliases": [
-        "Redmi Note 10 Pro (India)",
-        "Redmi Note 10 Pro",
-        "Redmi Note 10 Pro Max (India)"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-01T02:38:40Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K6P",
-        "M2101K6G",
-        "M2101K6R",
-        "M2101K6I"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/sweet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/sweet/",
-      "download_url": "https://download.lineageos.org/devices/sweet"
-    },
-    {
-      "codename": "cupid",
-      "name": "12",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-01T01:17:20Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201123C",
-        "2201123G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
-      "download_url": "https://download.lineageos.org/devices/cupid"
     },
     {
       "codename": "Mi8917",
