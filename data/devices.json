@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-10-09T13:23:46Z",
+  "generated_at": "2026-10-09T22:41:19Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-09T05:41:10Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J1G"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
+      "download_url": "https://download.lineageos.org/devices/cmi"
+    },
+    {
+      "codename": "sagit",
+      "name": "Mi 6",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-09T05:07:10Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2017-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
+      "download_url": "https://download.lineageos.org/devices/sagit"
+    },
     {
       "codename": "vela",
       "name": "Mi CC9 Meitu Edition",
@@ -1289,46 +1329,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
       "download_url": "https://download.lineageos.org/devices/vermeer"
-    },
-    {
-      "codename": "sagit",
-      "name": "Mi 6",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-02T08:17:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2017-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
-      "download_url": "https://download.lineageos.org/devices/sagit"
-    },
-    {
-      "codename": "cmi",
-      "name": "Mi 10 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-02T00:04:08Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J1G"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
-      "download_url": "https://download.lineageos.org/devices/cmi"
     },
     {
       "codename": "Mi8917",
