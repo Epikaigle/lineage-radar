@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-10-10T05:56:35Z",
+  "generated_at": "2026-10-10T12:36:35Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "socrates",
+      "name": "Redmi K60 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-10T04:20:20Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22127RK46C"
+      ],
+      "release": "2022-12-27",
+      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
+      "download_url": "https://download.lineageos.org/devices/socrates"
+    },
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-10T01:58:40Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
+      "download_url": "https://download.lineageos.org/devices/lancelot"
+    },
+    {
+      "codename": "renoir",
+      "name": "Mi 11 Lite 5G",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-10T01:31:10Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K9G",
+        "M2101K9C",
+        "M2101K9R"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
+      "download_url": "https://download.lineageos.org/devices/renoir"
+    },
     {
       "codename": "dipper",
       "name": "Mi 8",
@@ -1193,46 +1256,6 @@
       "download_url": "https://download.lineageos.org/devices/umi"
     },
     {
-      "codename": "socrates",
-      "name": "Redmi K60 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-03T05:58:54Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22127RK46C"
-      ],
-      "release": "2022-12-27",
-      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
-      "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "lancelot",
-      "name": "Redmi 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-03T05:48:09Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
-      "download_url": "https://download.lineageos.org/devices/lancelot"
-    },
-    {
       "codename": "apollon",
       "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
       "aliases": [
@@ -1259,29 +1282,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
       "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
       "download_url": "https://download.lineageos.org/devices/apollon"
-    },
-    {
-      "codename": "renoir",
-      "name": "Mi 11 Lite 5G",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-03T02:25:27Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K9G",
-        "M2101K9C",
-        "M2101K9R"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
-      "download_url": "https://download.lineageos.org/devices/renoir"
     },
     {
       "codename": "thor",
