@@ -1,11 +1,30 @@
 {
-  "generated_at": "2026-10-09T22:41:19Z",
+  "generated_at": "2026-10-10T05:56:35Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "dipper",
+      "name": "Mi 8",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-10T01:17:08Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
+      "download_url": "https://download.lineageos.org/devices/dipper"
+    },
     {
       "codename": "cmi",
       "name": "Mi 10 Pro",
@@ -1240,25 +1259,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
       "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
       "download_url": "https://download.lineageos.org/devices/apollon"
-    },
-    {
-      "codename": "dipper",
-      "name": "Mi 8",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-03T02:57:55Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
-      "download_url": "https://download.lineageos.org/devices/dipper"
     },
     {
       "codename": "renoir",
