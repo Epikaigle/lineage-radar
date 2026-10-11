@@ -1,11 +1,92 @@
 {
-  "generated_at": "2026-10-11T12:55:19Z",
+  "generated_at": "2026-10-11T22:00:59Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "earth",
+      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
+      "aliases": [
+        "Redmi 12C",
+        "POCO C55",
+        "Redmi 12C NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T11:59:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
+      "download_url": "https://download.lineageos.org/devices/earth"
+    },
+    {
+      "codename": "diting",
+      "name": "12T Pro / Redmi K50 Ultra",
+      "aliases": [
+        "Redmi K50 Ultra",
+        "12T Pro"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T11:19:39Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22081212C",
+        "22081212UG",
+        "22081212R",
+        "22200414R",
+        "A201XM"
+      ],
+      "release": "2022-08-25",
+      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
+      "download_url": "https://download.lineageos.org/devices/diting"
+    },
+    {
+      "codename": "alioth",
+      "name": "POCO F3 / Redmi K40 / Mi 11X",
+      "aliases": [
+        "Redmi K40",
+        "Mi 11X",
+        "POCO F3"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T09:35:21Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2012K11AC",
+        "M2012K11AI",
+        "M2012K11AG"
+      ],
+      "release": "2021-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
+      "download_url": "https://download.lineageos.org/devices/alioth"
+    },
     {
       "codename": "apollon",
       "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
@@ -33,6 +114,28 @@
       "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
       "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
       "download_url": "https://download.lineageos.org/devices/apollon"
+    },
+    {
+      "codename": "cupid",
+      "name": "12",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T08:06:27Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201123C",
+        "2201123G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
+      "download_url": "https://download.lineageos.org/devices/cupid"
     },
     {
       "codename": "cmi",
@@ -334,28 +437,6 @@
       "download_url": "https://download.lineageos.org/devices/polaris"
     },
     {
-      "codename": "cupid",
-      "name": "12",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-08T03:03:48Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201123C",
-        "2201123G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
-      "download_url": "https://download.lineageos.org/devices/cupid"
-    },
-    {
       "codename": "sweet",
       "name": "Redmi Note 10 Pro / Redmi Note 10 Pro Max",
       "aliases": [
@@ -425,35 +506,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
       "wiki_url": "https://wiki.lineageos.org/devices/violet/",
       "download_url": "https://download.lineageos.org/devices/violet"
-    },
-    {
-      "codename": "alioth",
-      "name": "POCO F3 / Redmi K40 / Mi 11X",
-      "aliases": [
-        "Redmi K40",
-        "Mi 11X",
-        "POCO F3"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-07T05:42:15Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2012K11AC",
-        "M2012K11AI",
-        "M2012K11AG"
-      ],
-      "release": "2021-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
-      "download_url": "https://download.lineageos.org/devices/alioth"
     },
     {
       "codename": "venus",
@@ -538,34 +590,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
       "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
       "download_url": "https://download.lineageos.org/devices/gauguin"
-    },
-    {
-      "codename": "diting",
-      "name": "12T Pro / Redmi K50 Ultra",
-      "aliases": [
-        "Redmi K50 Ultra",
-        "12T Pro"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-07T03:16:14Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22081212C",
-        "22081212UG",
-        "22081212R",
-        "22200414R",
-        "A201XM"
-      ],
-      "release": "2022-08-25",
-      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
-      "download_url": "https://download.lineageos.org/devices/diting"
     },
     {
       "codename": "mars",
@@ -1234,30 +1258,6 @@
       "download_url": "https://download.lineageos.org/devices/grus"
     },
     {
-      "codename": "earth",
-      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
-      "aliases": [
-        "Redmi 12C",
-        "POCO C55",
-        "Redmi 12C NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-04T01:57:57Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
-      "download_url": "https://download.lineageos.org/devices/earth"
-    },
-    {
       "codename": "nuwa",
       "name": "13 Pro",
       "aliases": [],
@@ -1449,6 +1449,36 @@
       "image": "https://wiki.lineageos.org/images/devices/small/santoni.png",
       "wiki_url": "https://wiki.lineageos.org/devices/Mi8937/",
       "download_url": "https://download.lineageos.org/devices/Mi8937"
+    },
+    {
+      "codename": "xaga",
+      "name": "Redmi Note 11T Pro / Pro+ / POCO X4 GT / Redmi K50i",
+      "aliases": [
+        "Redmi Note 11T Pro+",
+        "Redmi K50i",
+        "POCO X4 GT",
+        "Redmi Note 11T Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": null,
+      "build_type": null,
+      "build_cadence": "W",
+      "models": [
+        "22041216UC",
+        "22041216I",
+        "22041216G",
+        "22041216C"
+      ],
+      "release": "2022-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/xaga.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/xaga/",
+      "download_url": "https://download.lineageos.org/devices/xaga"
     },
     {
       "codename": "monet",
