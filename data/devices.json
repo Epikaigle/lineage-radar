@@ -1,11 +1,81 @@
 {
-  "generated_at": "2026-10-11T05:51:38Z",
+  "generated_at": "2026-10-11T12:55:19Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "apollon",
+      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+      "aliases": [
+        "Mi 10T Pro",
+        "Mi 10T",
+        "Redmi K30S Ultra"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T08:49:42Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J3SG",
+        "M2007J3SY",
+        "M2007J3SC"
+      ],
+      "release": "2020-10",
+      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
+      "download_url": "https://download.lineageos.org/devices/apollon"
+    },
+    {
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T08:04:19Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J1G"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
+      "download_url": "https://download.lineageos.org/devices/cmi"
+    },
+    {
+      "codename": "cas",
+      "name": "Mi 10 Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-11T02:28:59Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J1SC"
+      ],
+      "release": "2020-08-16",
+      "image": "https://wiki.lineageos.org/images/devices/small/cas.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cas/",
+      "download_url": "https://download.lineageos.org/devices/cas"
+    },
     {
       "codename": "thor",
       "name": "12S Ultra",
@@ -52,34 +122,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
       "download_url": "https://download.lineageos.org/devices/vermeer"
-    },
-    {
-      "codename": "apollon",
-      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
-      "aliases": [
-        "Mi 10T Pro",
-        "Mi 10T",
-        "Redmi K30S Ultra"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-10T05:05:19Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J3SG",
-        "M2007J3SY",
-        "M2007J3SC"
-      ],
-      "release": "2020-10",
-      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
-      "download_url": "https://download.lineageos.org/devices/apollon"
     },
     {
       "codename": "socrates",
@@ -162,27 +204,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
       "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
       "download_url": "https://download.lineageos.org/devices/dipper"
-    },
-    {
-      "codename": "cmi",
-      "name": "Mi 10 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-09T05:41:10Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J1G"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
-      "download_url": "https://download.lineageos.org/devices/cmi"
     },
     {
       "codename": "sagit",
@@ -951,27 +972,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/haydn.png",
       "wiki_url": "https://wiki.lineageos.org/devices/haydn/",
       "download_url": "https://download.lineageos.org/devices/haydn"
-    },
-    {
-      "codename": "cas",
-      "name": "Mi 10 Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-06T00:02:02Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J1SC"
-      ],
-      "release": "2020-08-16",
-      "image": "https://wiki.lineageos.org/images/devices/small/cas.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cas/",
-      "download_url": "https://download.lineageos.org/devices/cas"
     },
     {
       "codename": "surya",
