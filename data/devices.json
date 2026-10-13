@@ -1,11 +1,96 @@
 {
-  "generated_at": "2026-10-13T14:16:16Z",
+  "generated_at": "2026-10-13T22:48:18Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "zeus",
+      "name": "12 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-13T00:08:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201122C",
+        "2201122G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/zeus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/zeus/",
+      "download_url": "https://download.lineageos.org/devices/zeus"
+    },
+    {
+      "codename": "unicorn",
+      "name": "12S Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-12T23:11:51Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2206122SC"
+      ],
+      "release": "2022-07-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/unicorn.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/unicorn/",
+      "download_url": "https://download.lineageos.org/devices/unicorn"
+    },
+    {
+      "codename": "thor",
+      "name": "12S Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-12T21:41:29Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2203121C"
+      ],
+      "release": "2022-07-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
+      "download_url": "https://download.lineageos.org/devices/thor"
+    },
+    {
+      "codename": "socrates",
+      "name": "Redmi K60 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-12T20:18:56Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22127RK46C"
+      ],
+      "release": "2022-12-27",
+      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
+      "download_url": "https://download.lineageos.org/devices/socrates"
+    },
     {
       "codename": "rosemary",
       "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
@@ -434,27 +519,6 @@
       "download_url": "https://download.lineageos.org/devices/cas"
     },
     {
-      "codename": "thor",
-      "name": "12S Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-10T08:27:36Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2203121C"
-      ],
-      "release": "2022-07-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
-      "download_url": "https://download.lineageos.org/devices/thor"
-    },
-    {
       "codename": "vermeer",
       "name": "POCO F6 Pro / Redmi K70",
       "aliases": [
@@ -479,27 +543,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
       "download_url": "https://download.lineageos.org/devices/vermeer"
-    },
-    {
-      "codename": "socrates",
-      "name": "Redmi K60 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-10T04:20:20Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22127RK46C"
-      ],
-      "release": "2022-12-27",
-      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
-      "download_url": "https://download.lineageos.org/devices/socrates"
     },
     {
       "codename": "renoir",
@@ -609,27 +652,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
       "download_url": "https://download.lineageos.org/devices/peridot"
-    },
-    {
-      "codename": "unicorn",
-      "name": "12S Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-09T02:20:21Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2206122SC"
-      ],
-      "release": "2022-07-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/unicorn.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/unicorn/",
-      "download_url": "https://download.lineageos.org/devices/unicorn"
     },
     {
       "codename": "polaris",
@@ -950,28 +972,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/beryllium.png",
       "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
       "download_url": "https://download.lineageos.org/devices/beryllium"
-    },
-    {
-      "codename": "zeus",
-      "name": "12 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-06T03:51:47Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201122C",
-        "2201122G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/zeus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/zeus/",
-      "download_url": "https://download.lineageos.org/devices/zeus"
     },
     {
       "codename": "chiron",
