@@ -1,11 +1,62 @@
 {
-  "generated_at": "2026-10-13T00:44:27Z",
+  "generated_at": "2026-10-13T14:16:16Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "rosemary",
+      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
+      "aliases": [
+        "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "POCO M5s",
+        "Redmi Note 10S NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-12T18:30:28Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2021-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "download_url": "https://download.lineageos.org/devices/rosemary"
+    },
+    {
+      "codename": "mondrian",
+      "name": "POCO F5 Pro / Redmi K60",
+      "aliases": [
+        "POCO F5 Pro",
+        "Redmi K60"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-12T12:03:09Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23013PC75G",
+        "23013RK75C"
+      ],
+      "release": "2023-05-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
+      "download_url": "https://download.lineageos.org/devices/mondrian"
+    },
     {
       "codename": "nuwa",
       "name": "13 Pro",
@@ -788,31 +839,6 @@
       "download_url": "https://download.lineageos.org/devices/zizhan"
     },
     {
-      "codename": "rosemary",
-      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
-      "aliases": [
-        "Redmi Note 10S Latin America",
-        "Redmi Note 10S",
-        "POCO M5s",
-        "Redmi Note 10S NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-07T00:02:10Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2021-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "download_url": "https://download.lineageos.org/devices/rosemary"
-    },
-    {
       "codename": "lmi",
       "name": "POCO F2 Pro / Redmi K30 Pro",
       "aliases": [
@@ -1230,32 +1256,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
       "download_url": "https://download.lineageos.org/devices/vayu"
-    },
-    {
-      "codename": "mondrian",
-      "name": "POCO F5 Pro / Redmi K60",
-      "aliases": [
-        "POCO F5 Pro",
-        "Redmi K60"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-04T03:32:30Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23013PC75G",
-        "23013RK75C"
-      ],
-      "release": "2023-05-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
-      "download_url": "https://download.lineageos.org/devices/mondrian"
     },
     {
       "codename": "grus",
