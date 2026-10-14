@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-10-14T17:14:40Z",
+  "generated_at": "2026-10-14T21:43:39Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "violet",
+      "name": "Redmi Note 7 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-14T05:32:38Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1901F7S",
+        "M1901F7BE"
+      ],
+      "release": "2019-03-13",
+      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
+      "download_url": "https://download.lineageos.org/devices/violet"
+    },
     {
       "codename": "mars",
       "name": "Mi 11 Pro",
@@ -1074,28 +1096,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/thyme.png",
       "wiki_url": "https://wiki.lineageos.org/devices/thyme/",
       "download_url": "https://download.lineageos.org/devices/thyme"
-    },
-    {
-      "codename": "violet",
-      "name": "Redmi Note 7 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-07T06:00:26Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1901F7S",
-        "M1901F7BE"
-      ],
-      "release": "2019-03-13",
-      "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/violet/",
-      "download_url": "https://download.lineageos.org/devices/violet"
     },
     {
       "codename": "surya",
