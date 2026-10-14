@@ -1,11 +1,85 @@
 {
-  "generated_at": "2026-10-14T11:57:43Z",
+  "generated_at": "2026-10-14T17:14:40Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "mars",
+      "name": "Mi 11 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-14T04:53:57Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102K1AC"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
+      "download_url": "https://download.lineageos.org/devices/mars"
+    },
+    {
+      "codename": "gemini",
+      "name": "Mi 5",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-14T02:42:01Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
+      "download_url": "https://download.lineageos.org/devices/gemini"
+    },
+    {
+      "codename": "garnet",
+      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
+      "aliases": [
+        "Redmi Note 13 Pro 5G (India)",
+        "POCO X6 5G (India)",
+        "Redmi Note 13 Pro 5G (China)",
+        "POCO X6 5G",
+        "Redmi Note 13 Pro 5G"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-14T00:03:06Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2312DRA50I",
+        "23122PCD1I",
+        "2312DRA50C",
+        "2312CRAD3C",
+        "23122PCD1G",
+        "2312DRA50G",
+        "XIG05"
+      ],
+      "release": "2024-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
+      "download_url": "https://download.lineageos.org/devices/garnet"
+    },
     {
       "codename": "venus",
       "name": "Mi 11",
@@ -1022,80 +1096,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
       "wiki_url": "https://wiki.lineageos.org/devices/violet/",
       "download_url": "https://download.lineageos.org/devices/violet"
-    },
-    {
-      "codename": "garnet",
-      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
-      "aliases": [
-        "Redmi Note 13 Pro 5G (India)",
-        "POCO X6 5G (India)",
-        "Redmi Note 13 Pro 5G (China)",
-        "POCO X6 5G",
-        "Redmi Note 13 Pro 5G"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-07T04:11:54Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2312DRA50I",
-        "23122PCD1I",
-        "2312DRA50C",
-        "2312CRAD3C",
-        "23122PCD1G",
-        "2312DRA50G",
-        "XIG05"
-      ],
-      "release": "2024-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
-      "download_url": "https://download.lineageos.org/devices/garnet"
-    },
-    {
-      "codename": "mars",
-      "name": "Mi 11 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-07T02:02:16Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102K1AC"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/mars.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mars/",
-      "download_url": "https://download.lineageos.org/devices/mars"
-    },
-    {
-      "codename": "gemini",
-      "name": "Mi 5",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-07T01:14:14Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
-      "download_url": "https://download.lineageos.org/devices/gemini"
     },
     {
       "codename": "surya",
