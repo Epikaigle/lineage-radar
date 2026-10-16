@@ -1,11 +1,59 @@
 {
-  "generated_at": "2026-10-16T11:28:57Z",
+  "generated_at": "2026-10-16T16:42:29Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "peridot",
+      "name": "Redmi Turbo 3/POCO F6",
+      "aliases": [
+        "POCO F6",
+        "Redmi Turbo 3"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-16T06:29:53Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "24069PC21G",
+        "24069PC21I",
+        "24069RA21C"
+      ],
+      "release": "2024-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
+      "download_url": "https://download.lineageos.org/devices/peridot"
+    },
+    {
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-16T05:30:20Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J1G"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
+      "download_url": "https://download.lineageos.org/devices/cmi"
+    },
     {
       "codename": "mayfly",
       "name": "12S",
@@ -947,27 +995,6 @@
       "download_url": "https://download.lineageos.org/devices/apollon"
     },
     {
-      "codename": "cmi",
-      "name": "Mi 10 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-11T08:04:19Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J1G"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
-      "download_url": "https://download.lineageos.org/devices/cmi"
-    },
-    {
       "codename": "cas",
       "name": "Mi 10 Ultra",
       "aliases": [],
@@ -1069,33 +1096,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vela/",
       "download_url": "https://download.lineageos.org/devices/vela"
-    },
-    {
-      "codename": "peridot",
-      "name": "Redmi Turbo 3/POCO F6",
-      "aliases": [
-        "POCO F6",
-        "Redmi Turbo 3"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-09T02:24:58Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "24069PC21G",
-        "24069PC21I",
-        "24069RA21C"
-      ],
-      "release": "2024-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/peridot_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/peridot/",
-      "download_url": "https://download.lineageos.org/devices/peridot"
     },
     {
       "codename": "surya",
