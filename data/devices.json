@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-10-20T21:39:56Z",
+  "generated_at": "2026-10-21T04:53:55Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "rosemary",
+      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
+      "aliases": [
+        "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "Redmi Note 10S NFC",
+        "POCO M5s"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-21T00:04:49Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2021-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "download_url": "https://download.lineageos.org/devices/rosemary"
+    },
+    {
+      "codename": "ginkgo",
+      "name": "Redmi Note 8 / 8T",
+      "aliases": [
+        "Redmi Note 8T",
+        "Redmi Note 8"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-21T00:03:03Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2019-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/ginkgo.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
+      "download_url": "https://download.lineageos.org/devices/ginkgo"
+    },
     {
       "codename": "ursa",
       "name": "Mi 8 Explorer Edition",
@@ -1227,53 +1274,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
       "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
       "download_url": "https://download.lineageos.org/devices/zizhan"
-    },
-    {
-      "codename": "rosemary",
-      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
-      "aliases": [
-        "Redmi Note 10S Latin America",
-        "Redmi Note 10S",
-        "Redmi Note 10S NFC",
-        "POCO M5s"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-12T18:30:28Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2021-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "download_url": "https://download.lineageos.org/devices/rosemary"
-    },
-    {
-      "codename": "ginkgo",
-      "name": "Redmi Note 8 / 8T",
-      "aliases": [
-        "Redmi Note 8T",
-        "Redmi Note 8"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-11T18:57:20Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2019-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/ginkgo.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/ginkgo/",
-      "download_url": "https://download.lineageos.org/devices/ginkgo"
     },
     {
       "codename": "gauguin",
