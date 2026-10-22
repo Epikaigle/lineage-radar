@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-10-22T04:53:26Z",
+  "generated_at": "2026-10-22T11:57:34Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cupid",
+      "name": "12",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-22T02:31:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201123C",
+        "2201123G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
+      "download_url": "https://download.lineageos.org/devices/cupid"
+    },
     {
       "codename": "venus",
       "name": "Mi 11",
@@ -1316,28 +1338,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/polaris.png",
       "wiki_url": "https://wiki.lineageos.org/devices/polaris/",
       "download_url": "https://download.lineageos.org/devices/polaris"
-    },
-    {
-      "codename": "cupid",
-      "name": "12",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-15T02:49:06Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201123C",
-        "2201123G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
-      "download_url": "https://download.lineageos.org/devices/cupid"
     },
     {
       "codename": "thyme",
