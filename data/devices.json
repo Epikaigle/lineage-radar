@@ -1,11 +1,30 @@
 {
-  "generated_at": "2026-10-23T17:12:24Z",
+  "generated_at": "2026-10-23T21:27:00Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "sagit",
+      "name": "Mi 6",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-23T09:20:02Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2017-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
+      "download_url": "https://download.lineageos.org/devices/sagit"
+    },
     {
       "codename": "unicorn",
       "name": "12S Pro",
@@ -1300,6 +1319,27 @@
       "download_url": "https://download.lineageos.org/devices/socrates"
     },
     {
+      "codename": "thor",
+      "name": "12S Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-17T00:04:05Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2203121C"
+      ],
+      "release": "2022-07-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
+      "download_url": "https://download.lineageos.org/devices/thor"
+    },
+    {
       "codename": "vela",
       "name": "Mi CC9 Meitu Edition",
       "aliases": [],
@@ -1319,46 +1359,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vela/",
       "download_url": "https://download.lineageos.org/devices/vela"
-    },
-    {
-      "codename": "sagit",
-      "name": "Mi 6",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-16T09:04:13Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2017-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
-      "download_url": "https://download.lineageos.org/devices/sagit"
-    },
-    {
-      "codename": "thor",
-      "name": "12S Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": null,
-      "build_type": null,
-      "build_cadence": "W",
-      "models": [
-        "2203121C"
-      ],
-      "release": "2022-07-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
-      "download_url": "https://download.lineageos.org/devices/thor"
     },
     {
       "codename": "Mi439",
