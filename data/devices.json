@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-10-24T15:59:37Z",
+  "generated_at": "2026-10-24T20:53:13Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "jaws",
+      "name": "TV Box S (2nd gen)",
+      "aliases": [
+        "Xiaomi TV Box S (2nd gen)"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-24T10:22:46Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/jaws.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/jaws/",
+      "download_url": "https://download.lineageos.org/devices/jaws"
+    },
+    {
+      "codename": "dipper",
+      "name": "Mi 8",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-24T10:11:10Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
+      "download_url": "https://download.lineageos.org/devices/dipper"
+    },
+    {
+      "codename": "renoir",
+      "name": "Mi 11 Lite 5G",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-24T08:53:41Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K9G",
+        "M2101K9C",
+        "M2101K9R"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
+      "download_url": "https://download.lineageos.org/devices/renoir"
+    },
     {
       "codename": "socrates",
       "name": "Redmi K60 Pro",
@@ -1317,69 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
       "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
       "download_url": "https://download.lineageos.org/devices/mondrian"
-    },
-    {
-      "codename": "dipper",
-      "name": "Mi 8",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-17T05:06:52Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
-      "download_url": "https://download.lineageos.org/devices/dipper"
-    },
-    {
-      "codename": "renoir",
-      "name": "Mi 11 Lite 5G",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-17T04:09:21Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K9G",
-        "M2101K9C",
-        "M2101K9R"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
-      "download_url": "https://download.lineageos.org/devices/renoir"
-    },
-    {
-      "codename": "jaws",
-      "name": "TV Box S (2nd gen)",
-      "aliases": [
-        "Xiaomi TV Box S (2nd gen)"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": null,
-      "build_type": null,
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/jaws.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/jaws/",
-      "download_url": "https://download.lineageos.org/devices/jaws"
     },
     {
       "codename": "Mi439",
