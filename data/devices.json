@@ -1,11 +1,103 @@
 {
-  "generated_at": "2026-10-25T04:46:29Z",
+  "generated_at": "2026-10-25T11:36:17Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "mondrian",
+      "name": "POCO F5 Pro / Redmi K60",
+      "aliases": [
+        "POCO F5 Pro",
+        "Redmi K60"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-25T03:11:56Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23013PC75G",
+        "23013RK75C"
+      ],
+      "release": "2023-05-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
+      "download_url": "https://download.lineageos.org/devices/mondrian"
+    },
+    {
+      "codename": "grus",
+      "name": "Mi 9 SE",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-25T02:19:57Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1903F2G",
+        "M1903F2A"
+      ],
+      "release": "2019-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/grus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/grus/",
+      "download_url": "https://download.lineageos.org/devices/grus"
+    },
+    {
+      "codename": "umi",
+      "name": "Mi 10",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-25T02:12:52Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J2G",
+        "M2001J2I"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/umi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/umi/",
+      "download_url": "https://download.lineageos.org/devices/umi"
+    },
+    {
+      "codename": "vayu",
+      "name": "POCO X3 Pro",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-25T01:38:48Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102J20SG",
+        "M2102J20SI"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
+      "download_url": "https://download.lineageos.org/devices/vayu"
+    },
     {
       "codename": "earth",
       "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
@@ -1230,50 +1322,6 @@
       "download_url": "https://download.lineageos.org/devices/fuxi"
     },
     {
-      "codename": "vayu",
-      "name": "POCO X3 Pro",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-18T04:59:09Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102J20SG",
-        "M2102J20SI"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
-      "download_url": "https://download.lineageos.org/devices/vayu"
-    },
-    {
-      "codename": "grus",
-      "name": "Mi 9 SE",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-18T04:47:19Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1903F2G",
-        "M1903F2A"
-      ],
-      "release": "2019-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/grus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/grus/",
-      "download_url": "https://download.lineageos.org/devices/grus"
-    },
-    {
       "codename": "natrium",
       "name": "Mi 5s Plus",
       "aliases": [],
@@ -1315,28 +1363,6 @@
       "download_url": "https://download.lineageos.org/devices/nuwa"
     },
     {
-      "codename": "umi",
-      "name": "Mi 10",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-18T02:50:30Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J2G",
-        "M2001J2I"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/umi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/umi/",
-      "download_url": "https://download.lineageos.org/devices/umi"
-    },
-    {
       "codename": "perseus",
       "name": "Mi MIX 3",
       "aliases": [],
@@ -1354,32 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
       "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
       "download_url": "https://download.lineageos.org/devices/perseus"
-    },
-    {
-      "codename": "mondrian",
-      "name": "POCO F5 Pro / Redmi K60",
-      "aliases": [
-        "POCO F5 Pro",
-        "Redmi K60"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-18T00:03:33Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23013PC75G",
-        "23013RK75C"
-      ],
-      "release": "2023-05-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
-      "download_url": "https://download.lineageos.org/devices/mondrian"
     },
     {
       "codename": "Mi439",
