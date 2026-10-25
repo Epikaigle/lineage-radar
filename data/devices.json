@@ -1,11 +1,71 @@
 {
-  "generated_at": "2026-10-25T11:36:17Z",
+  "generated_at": "2026-10-25T16:26:26Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "natrium",
+      "name": "Mi 5s Plus",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-25T05:27:18Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-10",
+      "image": "https://wiki.lineageos.org/images/devices/small/natrium.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
+      "download_url": "https://download.lineageos.org/devices/natrium"
+    },
+    {
+      "codename": "perseus",
+      "name": "Mi MIX 3",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-25T04:51:34Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
+      "download_url": "https://download.lineageos.org/devices/perseus"
+    },
+    {
+      "codename": "nuwa",
+      "name": "13 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-25T03:15:39Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2210132G",
+        "2210132C"
+      ],
+      "release": "2022-12-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/nuwa.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/nuwa/",
+      "download_url": "https://download.lineageos.org/devices/nuwa"
+    },
     {
       "codename": "mondrian",
       "name": "POCO F5 Pro / Redmi K60",
@@ -1320,66 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
       "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
       "download_url": "https://download.lineageos.org/devices/fuxi"
-    },
-    {
-      "codename": "natrium",
-      "name": "Mi 5s Plus",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-18T03:57:25Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-10",
-      "image": "https://wiki.lineageos.org/images/devices/small/natrium.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/natrium/",
-      "download_url": "https://download.lineageos.org/devices/natrium"
-    },
-    {
-      "codename": "nuwa",
-      "name": "13 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-18T03:30:51Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2210132G",
-        "2210132C"
-      ],
-      "release": "2022-12-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/nuwa.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/nuwa/",
-      "download_url": "https://download.lineageos.org/devices/nuwa"
-    },
-    {
-      "codename": "perseus",
-      "name": "Mi MIX 3",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-18T02:04:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
-      "download_url": "https://download.lineageos.org/devices/perseus"
     },
     {
       "codename": "Mi439",
