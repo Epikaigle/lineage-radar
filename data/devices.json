@@ -1,11 +1,30 @@
 {
-  "generated_at": "2026-10-26T22:42:22Z",
+  "generated_at": "2026-10-27T05:10:16Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "merlinx",
+      "name": "Redmi Note 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-27T00:02:44Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/merlinx.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/merlinx/",
+      "download_url": "https://download.lineageos.org/devices/merlinx"
+    },
     {
       "codename": "surya",
       "name": "POCO X3 NFC",
@@ -1313,25 +1332,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/chiron.png",
       "wiki_url": "https://wiki.lineageos.org/devices/chiron/",
       "download_url": "https://download.lineageos.org/devices/chiron"
-    },
-    {
-      "codename": "merlinx",
-      "name": "Redmi Note 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-20T01:35:57Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/merlinx.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/merlinx/",
-      "download_url": "https://download.lineageos.org/devices/merlinx"
     },
     {
       "codename": "lisa",
