@@ -1,11 +1,58 @@
 {
-  "generated_at": "2026-10-28T12:59:49Z",
+  "generated_at": "2026-10-28T22:38:27Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "gemini",
+      "name": "Mi 5",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-10-28T05:44:14Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
+      "download_url": "https://download.lineageos.org/devices/gemini"
+    },
+    {
+      "codename": "lmi",
+      "name": "POCO F2 Pro / Redmi K30 Pro",
+      "aliases": [
+        "Redmi K30 Pro Zoom Edition",
+        "POCO F2 Pro",
+        "Redmi K30 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-28T05:26:22Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J11C",
+        "M2001J11E",
+        "M2004J11G"
+      ],
+      "release": "2020-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
+      "download_url": "https://download.lineageos.org/devices/lmi"
+    },
     {
       "codename": "alioth",
       "name": "POCO F3 / Redmi K40 / Mi 11X",
@@ -109,6 +156,27 @@
       "image": "https://wiki.lineageos.org/images/devices/small/violet.png",
       "wiki_url": "https://wiki.lineageos.org/devices/violet/",
       "download_url": "https://download.lineageos.org/devices/violet"
+    },
+    {
+      "codename": "zizhan",
+      "name": "MIX Fold 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-28T03:08:58Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22061218C"
+      ],
+      "release": "2022-08-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
+      "download_url": "https://download.lineageos.org/devices/zizhan"
     },
     {
       "codename": "venus",
@@ -1312,74 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/cupid.png",
       "wiki_url": "https://wiki.lineageos.org/devices/cupid/",
       "download_url": "https://download.lineageos.org/devices/cupid"
-    },
-    {
-      "codename": "gemini",
-      "name": "Mi 5",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-21T07:08:32Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/gemini.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/gemini/",
-      "download_url": "https://download.lineageos.org/devices/gemini"
-    },
-    {
-      "codename": "zizhan",
-      "name": "MIX Fold 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-21T05:01:40Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22061218C"
-      ],
-      "release": "2022-08-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
-      "download_url": "https://download.lineageos.org/devices/zizhan"
-    },
-    {
-      "codename": "lmi",
-      "name": "POCO F2 Pro / Redmi K30 Pro",
-      "aliases": [
-        "Redmi K30 Pro Zoom Edition",
-        "POCO F2 Pro",
-        "Redmi K30 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-21T01:36:35Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J11C",
-        "M2001J11E",
-        "M2004J11G"
-      ],
-      "release": "2020-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/lmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lmi/",
-      "download_url": "https://download.lineageos.org/devices/lmi"
     },
     {
       "codename": "Mi439",
