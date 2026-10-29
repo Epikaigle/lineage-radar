@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-10-28T22:38:27Z",
+  "generated_at": "2026-10-29T05:52:14Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "jaws",
+      "name": "TV Box S (2nd gen)",
+      "aliases": [
+        "Xiaomi TV Box S (2nd gen)"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-29T00:03:16Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/jaws.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/jaws/",
+      "download_url": "https://download.lineageos.org/devices/jaws"
+    },
     {
       "codename": "gemini",
       "name": "Mi 5",
@@ -982,27 +1003,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
       "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
       "download_url": "https://download.lineageos.org/devices/davinci"
-    },
-    {
-      "codename": "jaws",
-      "name": "TV Box S (2nd gen)",
-      "aliases": [
-        "Xiaomi TV Box S (2nd gen)"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-24T10:22:46Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/jaws.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/jaws/",
-      "download_url": "https://download.lineageos.org/devices/jaws"
     },
     {
       "codename": "dipper",
