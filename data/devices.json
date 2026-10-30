@@ -1,11 +1,32 @@
 {
-  "generated_at": "2026-10-29T22:47:42Z",
+  "generated_at": "2026-10-30T05:53:52Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "cmi",
+      "name": "Mi 10 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-30T00:02:03Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2001J1G"
+      ],
+      "release": "2020-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
+      "download_url": "https://download.lineageos.org/devices/cmi"
+    },
     {
       "codename": "thyme",
       "name": "Mi 10S",
@@ -1359,27 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/mayfly.png",
       "wiki_url": "https://wiki.lineageos.org/devices/mayfly/",
       "download_url": "https://download.lineageos.org/devices/mayfly"
-    },
-    {
-      "codename": "cmi",
-      "name": "Mi 10 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-23T00:03:01Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2001J1G"
-      ],
-      "release": "2020-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/cmi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/cmi/",
-      "download_url": "https://download.lineageos.org/devices/cmi"
     },
     {
       "codename": "Mi439",
