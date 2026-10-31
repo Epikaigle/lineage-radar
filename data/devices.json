@@ -1,11 +1,55 @@
 {
-  "generated_at": "2026-10-31T05:49:02Z",
+  "generated_at": "2026-10-31T12:38:01Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "renoir",
+      "name": "Mi 11 Lite 5G",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-10-31T04:53:37Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K9G",
+        "M2101K9C",
+        "M2101K9R"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
+      "download_url": "https://download.lineageos.org/devices/renoir"
+    },
+    {
+      "codename": "socrates",
+      "name": "Redmi K60 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-10-31T04:15:08Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22127RK46C"
+      ],
+      "release": "2022-12-27",
+      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
+      "download_url": "https://download.lineageos.org/devices/socrates"
+    },
     {
       "codename": "lancelot",
       "name": "Redmi 9",
@@ -1287,50 +1331,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
       "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
       "download_url": "https://download.lineageos.org/devices/dipper"
-    },
-    {
-      "codename": "renoir",
-      "name": "Mi 11 Lite 5G",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-24T08:53:41Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K9G",
-        "M2101K9C",
-        "M2101K9R"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
-      "download_url": "https://download.lineageos.org/devices/renoir"
-    },
-    {
-      "codename": "socrates",
-      "name": "Redmi K60 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-24T05:10:28Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22127RK46C"
-      ],
-      "release": "2022-12-27",
-      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
-      "download_url": "https://download.lineageos.org/devices/socrates"
     },
     {
       "codename": "thor",
