@@ -1,11 +1,61 @@
 {
-  "generated_at": "2026-10-31T21:38:53Z",
+  "generated_at": "2026-11-01T06:12:25Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "earth",
+      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
+      "aliases": [
+        "Redmi 12C",
+        "Redmi 12C NFC",
+        "POCO C55"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-01T02:33:36Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
+      "download_url": "https://download.lineageos.org/devices/earth"
+    },
+    {
+      "codename": "mondrian",
+      "name": "POCO F5 Pro / Redmi K60",
+      "aliases": [
+        "POCO F5 Pro",
+        "Redmi K60"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-01T01:12:44Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23013PC75G",
+        "23013RK75C"
+      ],
+      "release": "2023-05-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
+      "download_url": "https://download.lineageos.org/devices/mondrian"
+    },
     {
       "codename": "dipper",
       "name": "Mi 8",
@@ -1237,32 +1287,6 @@
       "download_url": "https://download.lineageos.org/devices/nuwa"
     },
     {
-      "codename": "mondrian",
-      "name": "POCO F5 Pro / Redmi K60",
-      "aliases": [
-        "POCO F5 Pro",
-        "Redmi K60"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-25T03:11:56Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23013PC75G",
-        "23013RK75C"
-      ],
-      "release": "2023-05-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/mondrian_variant1.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/mondrian/",
-      "download_url": "https://download.lineageos.org/devices/mondrian"
-    },
-    {
       "codename": "grus",
       "name": "Mi 9 SE",
       "aliases": [],
@@ -1327,30 +1351,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
       "download_url": "https://download.lineageos.org/devices/vayu"
-    },
-    {
-      "codename": "earth",
-      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
-      "aliases": [
-        "Redmi 12C",
-        "Redmi 12C NFC",
-        "POCO C55"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-25T00:04:30Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
-      "download_url": "https://download.lineageos.org/devices/earth"
     },
     {
       "codename": "davinci",
