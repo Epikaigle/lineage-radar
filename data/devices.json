@@ -1,11 +1,52 @@
 {
-  "generated_at": "2026-11-01T13:29:58Z",
+  "generated_at": "2026-11-01T22:05:46Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "perseus",
+      "name": "Mi MIX 3",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-01T10:21:48Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
+      "download_url": "https://download.lineageos.org/devices/perseus"
+    },
+    {
+      "codename": "vayu",
+      "name": "POCO X3 Pro",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-01T09:14:25Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2102J20SG",
+        "M2102J20SI"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
+      "download_url": "https://download.lineageos.org/devices/vayu"
+    },
     {
       "codename": "natrium",
       "name": "Mi 5s Plus",
@@ -1339,47 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
       "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
       "download_url": "https://download.lineageos.org/devices/fuxi"
-    },
-    {
-      "codename": "perseus",
-      "name": "Mi MIX 3",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-25T04:51:34Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/perseus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/perseus/",
-      "download_url": "https://download.lineageos.org/devices/perseus"
-    },
-    {
-      "codename": "vayu",
-      "name": "POCO X3 Pro",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-25T01:38:48Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2102J20SG",
-        "M2102J20SI"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/vayu.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vayu/",
-      "download_url": "https://download.lineageos.org/devices/vayu"
     },
     {
       "codename": "Mi439",
