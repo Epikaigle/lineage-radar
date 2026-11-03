@@ -1,11 +1,224 @@
 {
-  "generated_at": "2026-11-03T01:00:30Z",
+  "generated_at": "2026-11-03T14:21:11Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "equuleus",
+      "name": "Mi 8 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T05:37:08Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/equuleus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/equuleus/",
+      "download_url": "https://download.lineageos.org/devices/equuleus"
+    },
+    {
+      "codename": "zeus",
+      "name": "12 Pro",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-03T04:38:46Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2201122C",
+        "2201122G"
+      ],
+      "release": "2021-12-31",
+      "image": "https://wiki.lineageos.org/images/devices/small/zeus.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/zeus/",
+      "download_url": "https://download.lineageos.org/devices/zeus"
+    },
+    {
+      "codename": "shark",
+      "name": "Black Shark",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T03:32:22Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "SKR-A0",
+        "SKR-H0"
+      ],
+      "release": "2018-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/shark.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/shark/",
+      "download_url": "https://download.lineageos.org/devices/shark"
+    },
+    {
+      "codename": "beryllium",
+      "name": "POCO F1",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T03:30:47Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-08",
+      "image": "https://wiki.lineageos.org/images/devices/small/beryllium.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
+      "download_url": "https://download.lineageos.org/devices/beryllium"
+    },
+    {
+      "codename": "chiron",
+      "name": "Mi MIX 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T02:42:43Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2017-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/chiron.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/chiron/",
+      "download_url": "https://download.lineageos.org/devices/chiron"
+    },
+    {
+      "codename": "merlinx",
+      "name": "Redmi Note 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-03T02:17:32Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-05",
+      "image": "https://wiki.lineageos.org/images/devices/small/merlinx.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/merlinx/",
+      "download_url": "https://download.lineageos.org/devices/merlinx"
+    },
+    {
+      "codename": "lisa",
+      "name": "11 Lite 5G NE / 11 Lite NE 5G / Mi 11 LE",
+      "aliases": [
+        "11 Lite 5G NE",
+        "11 Lite NE 5G",
+        "Mi 11 LE"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-11-03T02:12:59Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2109119DG",
+        "2109119DI",
+        "2107119DC"
+      ],
+      "release": "2021-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/lisa.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lisa/",
+      "download_url": "https://download.lineageos.org/devices/lisa"
+    },
+    {
+      "codename": "ursa",
+      "name": "Mi 8 Explorer Edition",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T01:08:05Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/ursa.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/ursa/",
+      "download_url": "https://download.lineageos.org/devices/ursa"
+    },
+    {
+      "codename": "laurel_sprout",
+      "name": "Mi A3",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-03T01:07:47Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1906F9SH",
+        "M1906F9SI"
+      ],
+      "release": "2019-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/laurel_sprout.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/laurel_sprout/",
+      "download_url": "https://download.lineageos.org/devices/laurel_sprout"
+    },
+    {
+      "codename": "pyxis",
+      "name": "Mi CC9 / Mi 9 Lite",
+      "aliases": [
+        "Mi CC9",
+        "Mi 9 Lite"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-03T01:06:31Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1904F3BC",
+        "M1904F3BG"
+      ],
+      "release": "2019-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
+      "download_url": "https://download.lineageos.org/devices/pyxis"
+    },
     {
       "codename": "fuxi",
       "name": "13",
@@ -1091,85 +1304,6 @@
       "download_url": "https://download.lineageos.org/devices/garnet"
     },
     {
-      "codename": "beryllium",
-      "name": "POCO F1",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T08:15:08Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-08",
-      "image": "https://wiki.lineageos.org/images/devices/small/beryllium.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/beryllium/",
-      "download_url": "https://download.lineageos.org/devices/beryllium"
-    },
-    {
-      "codename": "shark",
-      "name": "Black Shark",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T07:24:39Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "SKR-A0",
-        "SKR-H0"
-      ],
-      "release": "2018-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/shark.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/shark/",
-      "download_url": "https://download.lineageos.org/devices/shark"
-    },
-    {
-      "codename": "ursa",
-      "name": "Mi 8 Explorer Edition",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T06:17:32Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/ursa.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/ursa/",
-      "download_url": "https://download.lineageos.org/devices/ursa"
-    },
-    {
-      "codename": "equuleus",
-      "name": "Mi 8 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T04:29:20Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/equuleus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/equuleus/",
-      "download_url": "https://download.lineageos.org/devices/equuleus"
-    },
-    {
       "codename": "haydn",
       "name": "Mi 11i / Redmi K40 Pro / Redmi K40 Pro+ / Mi 11X Pro",
       "aliases": [
@@ -1197,99 +1331,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/haydn.png",
       "wiki_url": "https://wiki.lineageos.org/devices/haydn/",
       "download_url": "https://download.lineageos.org/devices/haydn"
-    },
-    {
-      "codename": "lisa",
-      "name": "11 Lite 5G NE / 11 Lite NE 5G / Mi 11 LE",
-      "aliases": [
-        "11 Lite 5G NE",
-        "11 Lite NE 5G",
-        "Mi 11 LE"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-10-27T03:21:27Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2109119DG",
-        "2109119DI",
-        "2107119DC"
-      ],
-      "release": "2021-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/lisa.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lisa/",
-      "download_url": "https://download.lineageos.org/devices/lisa"
-    },
-    {
-      "codename": "pyxis",
-      "name": "Mi CC9 / Mi 9 Lite",
-      "aliases": [
-        "Mi CC9",
-        "Mi 9 Lite"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T02:46:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1904F3BC",
-        "M1904F3BG"
-      ],
-      "release": "2019-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
-      "download_url": "https://download.lineageos.org/devices/pyxis"
-    },
-    {
-      "codename": "chiron",
-      "name": "Mi MIX 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-10-27T02:31:34Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2017-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/chiron.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/chiron/",
-      "download_url": "https://download.lineageos.org/devices/chiron"
-    },
-    {
-      "codename": "laurel_sprout",
-      "name": "Mi A3",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-27T01:39:02Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1906F9SH",
-        "M1906F9SI"
-      ],
-      "release": "2019-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/laurel_sprout.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/laurel_sprout/",
-      "download_url": "https://download.lineageos.org/devices/laurel_sprout"
     },
     {
       "codename": "cas",
@@ -1339,47 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/marble.png",
       "wiki_url": "https://wiki.lineageos.org/devices/marble/",
       "download_url": "https://download.lineageos.org/devices/marble"
-    },
-    {
-      "codename": "merlinx",
-      "name": "Redmi Note 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-27T00:02:44Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-05",
-      "image": "https://wiki.lineageos.org/images/devices/small/merlinx.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/merlinx/",
-      "download_url": "https://download.lineageos.org/devices/merlinx"
-    },
-    {
-      "codename": "zeus",
-      "name": "12 Pro",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-27T00:02:11Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2201122C",
-        "2201122G"
-      ],
-      "release": "2021-12-31",
-      "image": "https://wiki.lineageos.org/images/devices/small/zeus.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/zeus/",
-      "download_url": "https://download.lineageos.org/devices/zeus"
     },
     {
       "codename": "Mi439",
