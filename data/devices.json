@@ -1,11 +1,56 @@
 {
-  "generated_at": "2026-11-06T19:27:08Z",
+  "generated_at": "2026-11-07T06:03:14Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-07T02:41:41Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
+      "download_url": "https://download.lineageos.org/devices/lancelot"
+    },
+    {
+      "codename": "vermeer",
+      "name": "POCO F6 Pro / Redmi K70",
+      "aliases": [
+        "Redmi K70",
+        "POCO F6 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-07T01:19:22Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23113RKC6C",
+        "23113RKC6G"
+      ],
+      "release": "2023-11-29",
+      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant2.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
+      "download_url": "https://download.lineageos.org/devices/vermeer"
+    },
     {
       "codename": "vela",
       "name": "Mi CC9 Meitu Edition",
@@ -1335,51 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
       "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
       "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "lancelot",
-      "name": "Redmi 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-31T00:04:49Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
-      "download_url": "https://download.lineageos.org/devices/lancelot"
-    },
-    {
-      "codename": "vermeer",
-      "name": "POCO F6 Pro / Redmi K70",
-      "aliases": [
-        "Redmi K70",
-        "POCO F6 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-10-31T00:04:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23113RKC6C",
-        "23113RKC6G"
-      ],
-      "release": "2023-11-29",
-      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant2.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
-      "download_url": "https://download.lineageos.org/devices/vermeer"
     },
     {
       "codename": "Mi439",
