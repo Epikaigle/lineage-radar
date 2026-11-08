@@ -1,11 +1,64 @@
 {
-  "generated_at": "2026-11-07T21:54:24Z",
+  "generated_at": "2026-11-08T06:07:10Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "davinci",
+      "name": "Redmi K20 / Mi 9T",
+      "aliases": [
+        "Redmi K20 (India)",
+        "Mi 9T",
+        "Redmi K20 (China)"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-11-08T01:10:21Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1903F10I",
+        "M1903F10G",
+        "M1903F10A",
+        "M1903F10C"
+      ],
+      "release": "2019-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
+      "download_url": "https://download.lineageos.org/devices/davinci"
+    },
+    {
+      "codename": "earth",
+      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
+      "aliases": [
+        "Redmi 12C",
+        "Redmi 12C NFC",
+        "POCO C55"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-08T00:02:47Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2023-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
+      "download_url": "https://download.lineageos.org/devices/earth"
+    },
     {
       "codename": "socrates",
       "name": "Redmi K60 Pro",
@@ -1279,59 +1332,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/grus.png",
       "wiki_url": "https://wiki.lineageos.org/devices/grus/",
       "download_url": "https://download.lineageos.org/devices/grus"
-    },
-    {
-      "codename": "davinci",
-      "name": "Redmi K20 / Mi 9T",
-      "aliases": [
-        "Redmi K20 (India)",
-        "Mi 9T",
-        "Redmi K20 (China)"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-11-01T04:24:49Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1903F10I",
-        "M1903F10G",
-        "M1903F10A",
-        "M1903F10C"
-      ],
-      "release": "2019-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/davinci.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/davinci/",
-      "download_url": "https://download.lineageos.org/devices/davinci"
-    },
-    {
-      "codename": "earth",
-      "name": "Redmi 12C / Redmi 12C NFC / POCO C55",
-      "aliases": [
-        "Redmi 12C",
-        "Redmi 12C NFC",
-        "POCO C55"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-01T02:33:36Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2023-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/earth/",
-      "download_url": "https://download.lineageos.org/devices/earth"
     },
     {
       "codename": "nuwa",
