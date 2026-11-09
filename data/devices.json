@@ -1,11 +1,33 @@
 {
-  "generated_at": "2026-11-08T22:09:40Z",
+  "generated_at": "2026-11-09T06:39:57Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "fuxi",
+      "name": "13",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-09T00:02:13Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2211133G",
+        "2211133C"
+      ],
+      "release": "2022-12-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
+      "download_url": "https://download.lineageos.org/devices/fuxi"
+    },
     {
       "codename": "vayu",
       "name": "POCO X3 Pro",
@@ -1228,28 +1250,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
       "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
       "download_url": "https://download.lineageos.org/devices/pyxis"
-    },
-    {
-      "codename": "fuxi",
-      "name": "13",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-02T08:29:47Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2211133G",
-        "2211133C"
-      ],
-      "release": "2022-12-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/fuxi.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/fuxi/",
-      "download_url": "https://download.lineageos.org/devices/fuxi"
     },
     {
       "codename": "miatoll",
