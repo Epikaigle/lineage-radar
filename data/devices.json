@@ -1,11 +1,141 @@
 {
-  "generated_at": "2026-11-09T06:39:57Z",
+  "generated_at": "2026-11-09T22:24:34Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "surya",
+      "name": "POCO X3 NFC",
+      "aliases": [],
+      "brands": [
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-09T09:30:54Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J20CG",
+        "M2007J20CI"
+      ],
+      "release": "2020-09-08",
+      "image": "https://wiki.lineageos.org/images/devices/small/surya.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/surya/",
+      "download_url": "https://download.lineageos.org/devices/surya"
+    },
+    {
+      "codename": "scorpio",
+      "name": "Mi Note 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-09T09:18:37Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2016-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/scorpio.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
+      "download_url": "https://download.lineageos.org/devices/scorpio"
+    },
+    {
+      "codename": "miatoll",
+      "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
+      "aliases": [
+        "Redmi Note 10 Lite",
+        "POCO M2 Pro",
+        "Redmi Note 9S",
+        "Redmi Note 9 Pro Max",
+        "Redmi Note 9 Pro (India)",
+        "Redmi Note 9 Pro (Global)"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-09T07:50:49Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2109106A1I",
+        "M2003J6CI",
+        "M2003J6A1G",
+        "M2003J6A1R",
+        "M2003J6B1I",
+        "M2003J6A1I",
+        "M2003J6B2G"
+      ],
+      "release": "2021-10-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/miatoll.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/miatoll/",
+      "download_url": "https://download.lineageos.org/devices/miatoll"
+    },
+    {
+      "codename": "tucana",
+      "name": "Mi Note 10 / Note 10 Pro / CC9 Pro",
+      "aliases": [
+        "Mi Note 10",
+        "Mi CC9 Pro",
+        "Mi Note 10 Pro"
+      ],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-11-09T07:03:54Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1910F4G",
+        "M1910F4E",
+        "M1910F4S"
+      ],
+      "release": "2019-11-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
+      "download_url": "https://download.lineageos.org/devices/tucana"
+    },
+    {
+      "codename": "munch",
+      "name": "POCO F4 / Redmi K40S",
+      "aliases": [
+        "POCO F4",
+        "Redmi K40S"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-11-09T06:02:41Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22021211RG",
+        "22021211RI",
+        "22021211RC"
+      ],
+      "release": "2022-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/munch/",
+      "download_url": "https://download.lineageos.org/devices/munch"
+    },
     {
       "codename": "fuxi",
       "name": "13",
@@ -1250,136 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
       "wiki_url": "https://wiki.lineageos.org/devices/pyxis/",
       "download_url": "https://download.lineageos.org/devices/pyxis"
-    },
-    {
-      "codename": "miatoll",
-      "name": "POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite",
-      "aliases": [
-        "Redmi Note 10 Lite",
-        "POCO M2 Pro",
-        "Redmi Note 9S",
-        "Redmi Note 9 Pro Max",
-        "Redmi Note 9 Pro (India)",
-        "Redmi Note 9 Pro (Global)"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-02T03:49:37Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2109106A1I",
-        "M2003J6CI",
-        "M2003J6A1G",
-        "M2003J6A1R",
-        "M2003J6B1I",
-        "M2003J6A1I",
-        "M2003J6B2G"
-      ],
-      "release": "2021-10-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/miatoll.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/miatoll/",
-      "download_url": "https://download.lineageos.org/devices/miatoll"
-    },
-    {
-      "codename": "munch",
-      "name": "POCO F4 / Redmi K40S",
-      "aliases": [
-        "POCO F4",
-        "Redmi K40S"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-11-02T02:50:02Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22021211RG",
-        "22021211RI",
-        "22021211RC"
-      ],
-      "release": "2022-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/munch.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/munch/",
-      "download_url": "https://download.lineageos.org/devices/munch"
-    },
-    {
-      "codename": "surya",
-      "name": "POCO X3 NFC",
-      "aliases": [],
-      "brands": [
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-02T02:44:00Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J20CG",
-        "M2007J20CI"
-      ],
-      "release": "2020-09-08",
-      "image": "https://wiki.lineageos.org/images/devices/small/surya.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/surya/",
-      "download_url": "https://download.lineageos.org/devices/surya"
-    },
-    {
-      "codename": "scorpio",
-      "name": "Mi Note 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-02T01:45:39Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2016-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/scorpio.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/scorpio/",
-      "download_url": "https://download.lineageos.org/devices/scorpio"
-    },
-    {
-      "codename": "tucana",
-      "name": "Mi Note 10 / Note 10 Pro / CC9 Pro",
-      "aliases": [
-        "Mi Note 10",
-        "Mi CC9 Pro",
-        "Mi Note 10 Pro"
-      ],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-11-02T01:37:56Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1910F4G",
-        "M1910F4E",
-        "M1910F4S"
-      ],
-      "release": "2019-11-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/tucana.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/tucana/",
-      "download_url": "https://download.lineageos.org/devices/tucana"
     },
     {
       "codename": "Mi439",
