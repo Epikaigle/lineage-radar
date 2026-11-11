@@ -1,11 +1,85 @@
 {
-  "generated_at": "2026-11-10T19:46:22Z",
+  "generated_at": "2026-11-11T06:30:29Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "rosemary",
+      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
+      "aliases": [
+        "Redmi Note 10S Latin America",
+        "Redmi Note 10S",
+        "POCO M5s",
+        "Redmi Note 10S NFC"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-11T00:04:45Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2021-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
+      "download_url": "https://download.lineageos.org/devices/rosemary"
+    },
+    {
+      "codename": "diting",
+      "name": "12T Pro / Redmi K50 Ultra",
+      "aliases": [
+        "12T Pro",
+        "Redmi K50 Ultra"
+      ],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-11T00:03:02Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22081212UG",
+        "22081212R",
+        "22200414R",
+        "A201XM",
+        "22081212C"
+      ],
+      "release": "2022-10-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
+      "download_url": "https://download.lineageos.org/devices/diting"
+    },
+    {
+      "codename": "zizhan",
+      "name": "MIX Fold 2",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-11T00:02:53Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22061218C"
+      ],
+      "release": "2022-08-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
+      "download_url": "https://download.lineageos.org/devices/zizhan"
+    },
     {
       "codename": "beryllium",
       "name": "POCO F1",
@@ -1081,31 +1155,6 @@
       "download_url": "https://download.lineageos.org/devices/lmi"
     },
     {
-      "codename": "rosemary",
-      "name": "Redmi Note 10S / Redmi Note 10S NFC / Redmi Note 10S Latin America / POCO M5s",
-      "aliases": [
-        "Redmi Note 10S Latin America",
-        "Redmi Note 10S",
-        "POCO M5s",
-        "Redmi Note 10S NFC"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-04T06:31:52Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2021-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/rosemary.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/rosemary/",
-      "download_url": "https://download.lineageos.org/devices/rosemary"
-    },
-    {
       "codename": "garnet",
       "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
       "aliases": [
@@ -1217,55 +1266,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
       "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
       "download_url": "https://download.lineageos.org/devices/gauguin"
-    },
-    {
-      "codename": "diting",
-      "name": "12T Pro / Redmi K50 Ultra",
-      "aliases": [
-        "12T Pro",
-        "Redmi K50 Ultra"
-      ],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-04T03:35:38Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22081212UG",
-        "22081212R",
-        "22200414R",
-        "A201XM",
-        "22081212C"
-      ],
-      "release": "2022-10-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/diting.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/diting/",
-      "download_url": "https://download.lineageos.org/devices/diting"
-    },
-    {
-      "codename": "zizhan",
-      "name": "MIX Fold 2",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-04T02:44:05Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22061218C"
-      ],
-      "release": "2022-08-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/zizhan.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/zizhan/",
-      "download_url": "https://download.lineageos.org/devices/zizhan"
     },
     {
       "codename": "mars",
