@@ -1,11 +1,51 @@
 {
-  "generated_at": "2026-11-13T19:45:42Z",
+  "generated_at": "2026-11-14T06:29:36Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "vela",
+      "name": "Mi CC9 Meitu Edition",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-13T11:37:33Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M1904F3BT"
+      ],
+      "release": "2019-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vela/",
+      "download_url": "https://download.lineageos.org/devices/vela"
+    },
+    {
+      "codename": "sagit",
+      "name": "Mi 6",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-13T11:31:39Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2017-04",
+      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
+      "download_url": "https://download.lineageos.org/devices/sagit"
+    },
     {
       "codename": "peridot",
       "name": "Redmi Turbo 3/POCO F6",
@@ -1340,46 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant2.png",
       "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
       "download_url": "https://download.lineageos.org/devices/vermeer"
-    },
-    {
-      "codename": "vela",
-      "name": "Mi CC9 Meitu Edition",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-06T07:45:05Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M1904F3BT"
-      ],
-      "release": "2019-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/pyxis.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vela/",
-      "download_url": "https://download.lineageos.org/devices/vela"
-    },
-    {
-      "codename": "sagit",
-      "name": "Mi 6",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-06T07:14:31Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2017-04",
-      "image": "https://wiki.lineageos.org/images/devices/small/sagit.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/sagit/",
-      "download_url": "https://download.lineageos.org/devices/sagit"
     },
     {
       "codename": "Mi439",
