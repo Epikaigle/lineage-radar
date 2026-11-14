@@ -1,11 +1,109 @@
 {
-  "generated_at": "2026-11-14T06:29:36Z",
+  "generated_at": "2026-11-14T18:08:40Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "renoir",
+      "name": "Mi 11 Lite 5G",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "23.2",
+      "android_version": "16",
+      "last_build": "2026-11-14T06:11:15Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2101K9G",
+        "M2101K9C",
+        "M2101K9R"
+      ],
+      "release": "2021-03",
+      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
+      "download_url": "https://download.lineageos.org/devices/renoir"
+    },
+    {
+      "codename": "thor",
+      "name": "12S Ultra",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-14T01:36:28Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "2203121C"
+      ],
+      "release": "2022-07-09",
+      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
+      "download_url": "https://download.lineageos.org/devices/thor"
+    },
+    {
+      "codename": "apollon",
+      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+      "aliases": [
+        "Redmi K30S Ultra",
+        "Mi 10T Pro",
+        "Mi 10T"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-14T01:27:07Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2007J3SC",
+        "M2007J3SG",
+        "M2007J3SY"
+      ],
+      "release": "2020-11",
+      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
+      "download_url": "https://download.lineageos.org/devices/apollon"
+    },
+    {
+      "codename": "vermeer",
+      "name": "POCO F6 Pro / Redmi K70",
+      "aliases": [
+        "Redmi K70",
+        "POCO F6 Pro"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-14T00:03:45Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23113RKC6C",
+        "23113RKC6G"
+      ],
+      "release": "2023-11-29",
+      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant2.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
+      "download_url": "https://download.lineageos.org/devices/vermeer"
+    },
     {
       "codename": "vela",
       "name": "Mi CC9 Meitu Edition",
@@ -58,8 +156,8 @@
         "poco"
       ],
       "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
+      "lineage_version": "24.0",
+      "android_version": null,
       "last_build": "2026-11-13T07:46:20Z",
       "build_type": "nightly",
       "build_cadence": "W",
@@ -374,8 +472,8 @@
         "poco"
       ],
       "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
+      "lineage_version": "24.0",
+      "android_version": null,
       "last_build": "2026-11-11T03:25:11Z",
       "build_type": "nightly",
       "build_cadence": "W",
@@ -1265,57 +1363,6 @@
       "download_url": "https://download.lineageos.org/devices/dipper"
     },
     {
-      "codename": "apollon",
-      "name": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
-      "aliases": [
-        "Redmi K30S Ultra",
-        "Mi 10T Pro",
-        "Mi 10T"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-07T06:23:26Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2007J3SC",
-        "M2007J3SG",
-        "M2007J3SY"
-      ],
-      "release": "2020-11",
-      "image": "https://wiki.lineageos.org/images/devices/small/apollon.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/apollon/",
-      "download_url": "https://download.lineageos.org/devices/apollon"
-    },
-    {
-      "codename": "renoir",
-      "name": "Mi 11 Lite 5G",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "23.2",
-      "android_version": "16",
-      "last_build": "2026-11-07T04:42:16Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2101K9G",
-        "M2101K9C",
-        "M2101K9R"
-      ],
-      "release": "2021-03",
-      "image": "https://wiki.lineageos.org/images/devices/small/renoir.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/renoir/",
-      "download_url": "https://download.lineageos.org/devices/renoir"
-    },
-    {
       "codename": "lancelot",
       "name": "Redmi 9",
       "aliases": [],
@@ -1333,53 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
       "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
       "download_url": "https://download.lineageos.org/devices/lancelot"
-    },
-    {
-      "codename": "thor",
-      "name": "12S Ultra",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-07T02:22:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "2203121C"
-      ],
-      "release": "2022-07-09",
-      "image": "https://wiki.lineageos.org/images/devices/small/thor.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/thor/",
-      "download_url": "https://download.lineageos.org/devices/thor"
-    },
-    {
-      "codename": "vermeer",
-      "name": "POCO F6 Pro / Redmi K70",
-      "aliases": [
-        "Redmi K70",
-        "POCO F6 Pro"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-07T01:19:22Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23113RKC6C",
-        "23113RKC6G"
-      ],
-      "release": "2023-11-29",
-      "image": "https://wiki.lineageos.org/images/devices/small/vermeer_variant2.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/vermeer/",
-      "download_url": "https://download.lineageos.org/devices/vermeer"
     },
     {
       "codename": "Mi439",
