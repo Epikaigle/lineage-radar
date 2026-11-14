@@ -1,11 +1,70 @@
 {
-  "generated_at": "2026-11-14T18:08:40Z",
+  "generated_at": "2026-11-14T22:28:26Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "lancelot",
+      "name": "Redmi 9",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-14T08:55:25Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2020-06",
+      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
+      "download_url": "https://download.lineageos.org/devices/lancelot"
+    },
+    {
+      "codename": "socrates",
+      "name": "Redmi K60 Pro",
+      "aliases": [],
+      "brands": [
+        "redmi"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-14T08:07:20Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "22127RK46C"
+      ],
+      "release": "2022-12-27",
+      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
+      "download_url": "https://download.lineageos.org/devices/socrates"
+    },
+    {
+      "codename": "dipper",
+      "name": "Mi 8",
+      "aliases": [],
+      "brands": [
+        "xiaomi"
+      ],
+      "status": "active",
+      "lineage_version": "22.2",
+      "android_version": "15",
+      "last_build": "2026-11-14T08:01:18Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [],
+      "release": "2018-07",
+      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
+      "download_url": "https://download.lineageos.org/devices/dipper"
+    },
     {
       "codename": "renoir",
       "name": "Mi 11 Lite 5G",
@@ -1321,65 +1380,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/earth.png",
       "wiki_url": "https://wiki.lineageos.org/devices/earth/",
       "download_url": "https://download.lineageos.org/devices/earth"
-    },
-    {
-      "codename": "socrates",
-      "name": "Redmi K60 Pro",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-07T09:52:35Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "22127RK46C"
-      ],
-      "release": "2022-12-27",
-      "image": "https://wiki.lineageos.org/images/devices/small/socrates.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/socrates/",
-      "download_url": "https://download.lineageos.org/devices/socrates"
-    },
-    {
-      "codename": "dipper",
-      "name": "Mi 8",
-      "aliases": [],
-      "brands": [
-        "xiaomi"
-      ],
-      "status": "active",
-      "lineage_version": "22.2",
-      "android_version": "15",
-      "last_build": "2026-11-07T07:10:23Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2018-07",
-      "image": "https://wiki.lineageos.org/images/devices/small/dipper.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/dipper/",
-      "download_url": "https://download.lineageos.org/devices/dipper"
-    },
-    {
-      "codename": "lancelot",
-      "name": "Redmi 9",
-      "aliases": [],
-      "brands": [
-        "redmi"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-07T02:41:41Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [],
-      "release": "2020-06",
-      "image": "https://wiki.lineageos.org/images/devices/small/lancelot.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/lancelot/",
-      "download_url": "https://download.lineageos.org/devices/lancelot"
     },
     {
       "codename": "Mi439",
