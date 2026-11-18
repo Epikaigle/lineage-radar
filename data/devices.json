@@ -1,11 +1,74 @@
 {
-  "generated_at": "2026-11-17T20:58:33Z",
+  "generated_at": "2026-11-18T07:34:07Z",
   "sources": {
     "wiki": "https://github.com/LineageOS/lineage_wiki",
     "hudson": "https://github.com/LineageOS/hudson",
     "downloads": "https://download.lineageos.org"
   },
   "devices": [
+    {
+      "codename": "alioth",
+      "name": "POCO F3 / Redmi K40 / Mi 11X",
+      "aliases": [
+        "Redmi K40",
+        "Mi 11X",
+        "POCO F3"
+      ],
+      "brands": [
+        "xiaomi",
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-18T01:39:54Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "M2012K11AC",
+        "M2012K11AI",
+        "M2012K11AG"
+      ],
+      "release": "2021-02",
+      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
+      "download_url": "https://download.lineageos.org/devices/alioth"
+    },
+    {
+      "codename": "garnet",
+      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
+      "aliases": [
+        "POCO X6 5G (India)",
+        "Redmi Note 13 Pro 5G (China)",
+        "Redmi Note 13 Pro 5G",
+        "Redmi Note 13 Pro 5G (India)",
+        "POCO X6 5G"
+      ],
+      "brands": [
+        "redmi",
+        "poco"
+      ],
+      "status": "active",
+      "lineage_version": "24.0",
+      "android_version": null,
+      "last_build": "2026-11-18T00:04:12Z",
+      "build_type": "nightly",
+      "build_cadence": "W",
+      "models": [
+        "23122PCD1I",
+        "2312DRA50C",
+        "2312CRAD3C",
+        "2312DRA50G",
+        "XIG05",
+        "2312DRA50I",
+        "23122PCD1G"
+      ],
+      "release": "2024-01",
+      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
+      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
+      "download_url": "https://download.lineageos.org/devices/garnet"
+    },
     {
       "codename": "shark",
       "name": "Black Shark",
@@ -682,40 +745,6 @@
       "download_url": "https://download.lineageos.org/devices/peridot"
     },
     {
-      "codename": "garnet",
-      "name": "Redmi Note 13 Pro 5G / POCO X6 5G",
-      "aliases": [
-        "POCO X6 5G (India)",
-        "Redmi Note 13 Pro 5G (China)",
-        "Redmi Note 13 Pro 5G",
-        "Redmi Note 13 Pro 5G (India)",
-        "POCO X6 5G"
-      ],
-      "brands": [
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-14T16:45:16Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "23122PCD1I",
-        "2312DRA50C",
-        "2312CRAD3C",
-        "2312DRA50G",
-        "XIG05",
-        "2312DRA50I",
-        "23122PCD1G"
-      ],
-      "release": "2024-01",
-      "image": "https://wiki.lineageos.org/images/devices/small/garnet.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/garnet/",
-      "download_url": "https://download.lineageos.org/devices/garnet"
-    },
-    {
       "codename": "lancelot",
       "name": "Redmi 9",
       "aliases": [],
@@ -1255,35 +1284,6 @@
       "image": "https://wiki.lineageos.org/images/devices/small/gauguin.png",
       "wiki_url": "https://wiki.lineageos.org/devices/gauguin/",
       "download_url": "https://download.lineageos.org/devices/gauguin"
-    },
-    {
-      "codename": "alioth",
-      "name": "POCO F3 / Redmi K40 / Mi 11X",
-      "aliases": [
-        "Redmi K40",
-        "Mi 11X",
-        "POCO F3"
-      ],
-      "brands": [
-        "xiaomi",
-        "redmi",
-        "poco"
-      ],
-      "status": "active",
-      "lineage_version": "24.0",
-      "android_version": null,
-      "last_build": "2026-11-11T01:21:15Z",
-      "build_type": "nightly",
-      "build_cadence": "W",
-      "models": [
-        "M2012K11AC",
-        "M2012K11AI",
-        "M2012K11AG"
-      ],
-      "release": "2021-02",
-      "image": "https://wiki.lineageos.org/images/devices/small/alioth.png",
-      "wiki_url": "https://wiki.lineageos.org/devices/alioth/",
-      "download_url": "https://download.lineageos.org/devices/alioth"
     },
     {
       "codename": "rosemary",
