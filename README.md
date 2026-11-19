@@ -64,7 +64,7 @@ The GitHub Actions workflow at `.github/workflows/update-data.yml` collects the 
 
 The site is **deployed directly to GitHub Pages as an Actions artifact**. The collector still creates `data/devices.json` inside the temporary workflow runner, but **does not commit or push it to Git**. Visiting the site downloads the last published data; it never triggers a workflow, data rewrite, or Git commit.
 
-**Required one-time setup:** In this repository, open **Settings → Pages → Build and deployment → Source → GitHub Actions**. This switches from the old branch-based deployment to Actions-based deployment. Then use **Actions → Publish Lineage Radar to Pages → Run workflow** to publish immediately. Until this setting is changed, the existing branch-published site remains available but its data snapshot stops auto-updating.
+**Deployment:** The first Actions artifact deployment has succeeded without changing the repository's Pages source. For a cleaner setup and to avoid a second, branch-based Pages build when source code changes, switch **Settings → Pages → Build and deployment → Source → GitHub Actions**. This is recommended rather than necessary for the currently working deployment. For an immediate refresh, use **Actions → Publish Lineage Radar to Pages → Run workflow**.
 
 `app.js` fetches `./data/devices.json` from the deployed website; no Cloudflare account, backend, API tokens or per-visitor API fan-out is required.
 
