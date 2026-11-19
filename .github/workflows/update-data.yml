@@ -13,6 +13,8 @@ on:
       - "robots.txt"
       - "sitemap.xml"
       - ".nojekyll"
+      - "README.md"
+      - "data/devices.json"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
