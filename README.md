@@ -58,13 +58,19 @@ Codenames are preserved with their exact case because the download API is case-s
 | 18.1 | 11 |
 | 17.1 | 10 |
 
-## Automatic refresh
+## Data updates without commits
 
-The GitHub Actions workflow in `.github/workflows/update-data.yml` refreshes the dataset every **6 hours**, when the collector changes, or manually through `workflow_dispatch`.
+The GitHub Actions workflow at `.github/workflows/update-data.yml` collects the public LineageOS sources every six hours, whenever the collector or site changes, or on demand.
 
-It only commits `data/devices.json` when the generated data changed.
+The site is **deployed directly to GitHub Pages as an Actions artifact**. The collector still creates `data/devices.json` inside the temporary workflow runner, but **does not commit or push it to Git**. Visiting the site downloads the last published data; it never triggers a workflow, data rewrite, or Git commit.
 
-The frontend loads `./data/devices.json` relatively, so the project remains functional if the GitHub repository is renamed.
+**Required one-time setup:** In this repository, open **Settings → Pages → Build and deployment → Source → GitHub Actions**. This switches from the old branch-based deployment to Actions-based deployment. Then use **Actions → Publish Lineage Radar to Pages → Run workflow** to publish immediately. Until this setting is changed, the existing branch-published site remains available but its data snapshot stops auto-updating.
+
+`app.js` fetches `./data/devices.json` from the deployed website; no Cloudflare account, backend, API tokens or per-visitor API fan-out is required.
+
+The `data/devices.json` committed to `main` is a **legacy development / emergency fallback snapshot**, not the live dataset after enabling GitHub Actions deployment. New data is generated only in the temporary GitHub Actions runner and published with the site. Do not commit generated JSON when refreshing the site.
+
+Why not fetch all APIs directly on every page load? This dataset merges multiple independent sources, including Wiki YAML metadata, and separately queries the build API for numerous device codenames. Browser requests can be blocked by CORS, would be slower, and duplicate load for each visitor. One generated JSON file in the deployment artifact avoids these problems and preserves support for discontinued devices.
 
 ## Local development
 
